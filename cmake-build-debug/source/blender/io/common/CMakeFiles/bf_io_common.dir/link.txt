@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar Scr ../../../../lib/libbf_io_common.a  CMakeFiles/bf_io_common.dir/intern/abstract_hierarchy_iterator.cc.o CMakeFiles/bf_io_common.dir/intern/dupli_parent_finder.cc.o CMakeFiles/bf_io_common.dir/intern/dupli_persistent_id.cc.o CMakeFiles/bf_io_common.dir/intern/object_identifier.cc.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib -no_warning_for_no_symbols -c ../../../../lib/libbf_io_common.a

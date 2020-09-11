@@ -1,21 +1,3 @@
-
-
-// DO NOT EDIT !
-// This file is generated using the MantaFlow preprocessor (prep generate).
-
-/******************************************************************************
- *
- * MantaFlow fluid solver framework
- * Copyright 2011 Tobias Pfaff, Nils Thuerey
- *
- * This program is free software, distributed under the terms of the
- * Apache License, Version 2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Fast marching and extrapolation
- *
- ******************************************************************************/
-
 #include "fastmarch.h"
 #include "levelset.h"
 #include "kernel.h"

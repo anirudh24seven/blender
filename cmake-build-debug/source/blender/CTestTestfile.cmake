@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /Users/anirudh/workspace/blender-git/blender/source/blender
+# Build directory: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("datatoc")
+subdirs("editors")
+subdirs("windowmanager")
+subdirs("blenkernel")
+subdirs("blenlib")
+subdirs("bmesh")
+subdirs("draw")
+subdirs("render")
+subdirs("blenfont")
+subdirs("blentranslation")
+subdirs("blenloader")
+subdirs("depsgraph")
+subdirs("ikplugin")
+subdirs("simulation")
+subdirs("gpu")
+subdirs("imbuf")
+subdirs("nodes")
+subdirs("modifiers")
+subdirs("gpencil_modifiers")
+subdirs("shader_fx")
+subdirs("io")
+subdirs("functions")
+subdirs("makesdna")
+subdirs("makesrna")
+subdirs("compositor")
+subdirs("imbuf/intern/openexr")
+subdirs("imbuf/intern/oiio")
+subdirs("imbuf/intern/dds")
+subdirs("imbuf/intern/cineon")
+subdirs("python")
+subdirs("freestyle")

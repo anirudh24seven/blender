@@ -1,21 +1,3 @@
-
-
-// DO NOT EDIT !
-// This file is generated using the MantaFlow preprocessor (prep generate).
-
-/******************************************************************************
- *
- * MantaFlow fluid solver framework
- * Copyright 2011-2015 Tobias Pfaff, Nils Thuerey
- *
- * This program is free software, distributed under the terms of the
- * Apache License, Version 2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Plugins for advection
- *
- ******************************************************************************/
-
 #include "vectorbase.h"
 #include "grid.h"
 #include "kernel.h"

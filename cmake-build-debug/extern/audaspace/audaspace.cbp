@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="audaspace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\build_files\;CMake Files\build_files\cmake\;CMake Files\build_files\cmake\platform\;CMake Files\build_files\cmake\Modules\;CMake Files\source\;CMake Files\source\blender\;CMake Files\source\blender\blenkernel\;CMake Files\source\blender\datatoc\;CMake Files\source\blender\editors\;CMake Files\source\blender\editors\animation\;CMake Files\source\blender\editors\armature\;CMake Files\source\blender\editors\curve\;CMake Files\source\blender\editors\geometry\;CMake Files\source\blender\editors\gizmo_library\;CMake Files\source\blender\editors\gpencil\;CMake Files\source\blender\editors\interface\;CMake Files\source\blender\editors\io\;CMake Files\source\blender\editors\lattice\;CMake Files\source\blender\editors\mask\;CMake Files\source\blender\editors\mesh\;CMake Files\source\blender\editors\metaball\;CMake Files\source\blender\editors\object\;CMake Files\source\blender\editors\physics\;CMake Files\source\blender\editors\render\;CMake Files\source\blender\editors\scene\;CMake Files\source\blender\editors\sculpt_paint\;CMake Files\source\blender\editors\sound\;CMake Files\source\blender\editors\space_action\;CMake Files\source\blender\editors\space_api\;CMake Files\source\blender\editors\space_buttons\;CMake Files\source\blender\editors\space_clip\;CMake Files\source\blender\editors\space_console\;CMake Files\source\blender\editors\space_file\;CMake Files\source\blender\editors\space_graph\;CMake Files\source\blender\editors\space_image\;CMake Files\source\blender\editors\space_info\;CMake Files\source\blender\editors\space_nla\;CMake Files\source\blender\editors\space_node\;CMake Files\source\blender\editors\space_outliner\;CMake Files\source\blender\editors\space_script\;CMake Files\source\blender\editors\space_sequencer\;CMake Files\source\blender\editors\space_statusbar\;CMake Files\source\blender\editors\space_text\;CMake Files\source\blender\editors\space_topbar\;CMake Files\source\blender\editors\space_userpref\;CMake Files\source\blender\editors\space_view3d\;CMake Files\source\blender\editors\transform\;CMake Files\source\blender\editors\undo\;CMake Files\source\blender\editors\util\;CMake Files\source\blender\editors\uvedit\;CMake Files\source\blender\editors\screen\;CMake Files\source\blender\editors\datafiles\;CMake Files\source\blender\windowmanager\;CMake Files\source\blender\blenlib\;CMake Files\source\blender\bmesh\;CMake Files\source\blender\draw\;CMake Files\source\blender\render\;CMake Files\source\blender\blenfont\;CMake Files\source\blender\blentranslation\;CMake Files\source\blender\blentranslation\msgfmt\;CMake Files\source\blender\blenloader\;CMake Files\source\blender\depsgraph\;CMake Files\source\blender\ikplugin\;CMake Files\source\blender\simulation\;CMake Files\source\blender\gpu\;CMake Files\source\blender\imbuf\;CMake Files\source\blender\imbuf\intern\;CMake Files\source\blender\imbuf\intern\openexr\;CMake Files\source\blender\imbuf\intern\oiio\;CMake Files\source\blender\imbuf\intern\dds\;CMake Files\source\blender\imbuf\intern\cineon\;CMake Files\source\blender\nodes\;CMake Files\source\blender\modifiers\;CMake Files\source\blender\gpencil_modifiers\;CMake Files\source\blender\shader_fx\;CMake Files\source\blender\io\;CMake Files\source\blender\io\common\;CMake Files\source\blender\io\alembic\;CMake Files\source\blender\io\avi\;CMake Files\source\blender\io\collada\;CMake Files\source\blender\io\usd\;CMake Files\source\blender\functions\;CMake Files\source\blender\makesdna\;CMake Files\source\blender\makesdna\intern\;CMake Files\source\blender\makesrna\;CMake Files\source\blender\makesrna\intern\;CMake Files\source\blender\compositor\;CMake Files\source\blender\python\;CMake Files\source\blender\python\intern\;CMake Files\source\blender\python\generic\;CMake Files\source\blender\python\gpu\;CMake Files\source\blender\python\mathutils\;CMake Files\source\blender\python\bmesh\;CMake Files\source\blender\freestyle\;CMake Files\source\creator\;CMake Files\intern\;CMake Files\intern\clog\;CMake Files\intern\ghost\;CMake Files\intern\guardedalloc\;CMake Files\intern\libmv\;CMake Files\intern\memutil\;CMake Files\intern\numaapi\;CMake Files\intern\opencolorio\;CMake Files\intern\opensubdiv\;CMake Files\intern\mikktspace\;CMake Files\intern\glew-mx\;CMake Files\intern\eigen\;CMake Files\intern\sky\;CMake Files\intern\audaspace\;CMake Files\intern\dualcon\;CMake Files\intern\iksolver\;CMake Files\intern\itasc\;CMake Files\intern\cycles\;CMake Files\intern\cycles\cmake\;CMake Files\intern\cycles\blender\;CMake Files\intern\cycles\bvh\;CMake Files\intern\cycles\device\;CMake Files\intern\cycles\doc\;CMake Files\intern\cycles\doc\license\;CMake Files\intern\cycles\graph\;CMake Files\intern\cycles\kernel\;CMake Files\intern\cycles\kernel\osl\;CMake Files\intern\cycles\kernel\shaders\;CMake Files\intern\cycles\render\;CMake Files\intern\cycles\subd\;CMake Files\intern\cycles\util\;CMake Files\intern\locale\;CMake Files\intern\rigidbody\;CMake Files\intern\mantaflow\;CMake Files\intern\openvdb\;CMake Files\intern\quadriflow\;CMake Files\intern\ffmpeg\;CMake Files\extern\;CMake Files\extern\curve_fit_nd\;CMake Files\extern\rangetree\;CMake Files\extern\wcwidth\;CMake Files\extern\bullet2\;CMake Files\extern\draco\;CMake Files\extern\draco\dracoenc\;CMake Files\extern\glew\;CMake Files\extern\lzo\;CMake Files\extern\lzma\;CMake Files\extern\clew\;CMake Files\extern\cuew\;CMake Files\extern\ceres\;CMake Files\extern\gflags\;CMake Files\extern\glog\;CMake Files\extern\audaspace\;CMake Files\extern\audaspace\config\;CMake Files\extern\audaspace\src\;CMake Files\extern\audaspace\src\plugin\;CMake Files\extern\quadriflow\;CMake Files\extern\quadriflow\3rd\;CMake Files\extern\quadriflow\3rd\lemon-1.3.1\;CMake Files\extern\quadriflow\3rd\lemon-1.3.1\lemon\;CMake Files\extern\mantaflow\;CMake Files\release\;CMake Files\release\darwin\;CMake Files\release\darwin\Blender.app\;CMake Files\release\darwin\Blender.app\Contents\;CMake Files\tests\;CMake Files\tests\python\;CMake Files\tests\python\collada\;CMake Files\tests\gtests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audaspace">
+				<Option output="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/lib/libaudaspace.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DMACOSX_DEPLOYMENT_TARGET=10.13"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-D__MMX__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__LITTLE_ENDIAN__"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DWITH_ASSERT_ABORT"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/ffmpeg/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sndfile/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenAL.framework/Headers"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/include/python3.7m"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/lib/python3.7/site-packages/numpy/core/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sdl/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 audaspace"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audaspace/fast">
+				<Option output="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/lib/libaudaspace.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DMACOSX_DEPLOYMENT_TARGET=10.13"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-D__MMX__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__LITTLE_ENDIAN__"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DWITH_ASSERT_ABORT"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/ffmpeg/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sndfile/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenAL.framework/Headers"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/include/python3.7m"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/lib/python3.7/site-packages/numpy/core/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sdl/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 audaspace/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audaspace-py">
+				<Option output="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/lib/libaudaspace-py.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DMACOSX_DEPLOYMENT_TARGET=10.13"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-D__MMX__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__LITTLE_ENDIAN__"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DWITH_ASSERT_ABORT"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/ffmpeg/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sndfile/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenAL.framework/Headers"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/include/python3.7m"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/lib/python3.7/site-packages/numpy/core/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sdl/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 audaspace-py"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="audaspace-py/fast">
+				<Option output="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/lib/libaudaspace-py.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DMACOSX_DEPLOYMENT_TARGET=10.13"/>
+					<Add option="-D__SSE__"/>
+					<Add option="-D__MMX__"/>
+					<Add option="-D__SSE2__"/>
+					<Add option="-D__LITTLE_ENDIAN__"/>
+					<Add option="-DWITH_OPENGL"/>
+					<Add option="-DWITH_ASSERT_ABORT"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/ffmpeg/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sndfile/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenAL.framework/Headers"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/include/python3.7m"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/lib/python3.7/site-packages/numpy/core/include"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/../lib/darwin/sdl/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 audaspace-py/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/Audaspace.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace/PluginManager.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Device.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Device.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_DynamicMusic.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_DynamicMusic.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Handle.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Handle.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_PlaybackManager.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_PlaybackManager.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Sequence.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Sequence.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Sound.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Sound.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Source.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Source.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Special.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Special.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_ThreadPool.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_ThreadPool.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C/AUD_Types.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyAPI.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyAPI.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyDevice.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyDevice.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyDynamicMusic.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyDynamicMusic.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyHandle.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyHandle.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyPlaybackManager.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyPlaybackManager.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySequence.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySequence.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySequenceEntry.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySequenceEntry.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySound.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySound.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySource.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PySource.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyThreadPool.cpp">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/python/PyThreadPool.h">
+			<Option target="audaspace-py"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/Exception.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/IReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/ISound.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/DefaultSynchronizer.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/DeviceManager.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/I3DDevice.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/I3DHandle.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/IDevice.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/IDeviceFactory.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/IHandle.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/ISynchronizer.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/NULLDevice.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/ReadDevice.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/devices/SoftwareDevice.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/file/File.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/file/FileManager.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/file/FileWriter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/file/IFileInput.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/file/IFileOutput.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/file/IWriter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/ADSR.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/ADSRReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Accumulator.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/BaseIIRFilterReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Butterworth.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/ButterworthCalculator.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/CallbackIIRFilterReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Delay.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/DelayReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/DynamicIIRFilter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/DynamicIIRFilterReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/DynamicMusic.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Effect.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/EffectReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Envelope.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Fader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/FaderReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Highpass.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/HighpassCalculator.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/IDynamicIIRFilterCalculator.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/IIRFilter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/IIRFilterReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Limiter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/LimiterReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Loop.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/LoopReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Lowpass.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/LowpassCalculator.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Modulator.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/ModulatorReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/MutableReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/MutableSound.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Pitch.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/PitchReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/PlaybackCategory.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/PlaybackManager.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Reverse.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/ReverseReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/SoundList.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Source.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Sum.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Threshold.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/Volume.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/VolumeReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/VolumeSound.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/fx/VolumeStorage.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/Sawtooth.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/SawtoothReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/Silence.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/SilenceReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/Sine.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/SineReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/Square.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/SquareReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/Triangle.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/generator/TriangleReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/plugin/PluginManager.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/ChannelMapper.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/ChannelMapperReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/Converter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/ConverterFunctions.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/ConverterReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/JOSResample.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/JOSResampleReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/LinearResample.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/LinearResampleReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/Mixer.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/ResampleReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/Specification.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/respec/SpecsChanger.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/AnimateableProperty.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/Double.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/DoubleReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/PingPong.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/Sequence.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/SequenceData.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/SequenceEntry.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/SequenceReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/Superpose.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/sequence/SuperposeReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/util/Barrier.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/util/Buffer.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/util/BufferReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/util/ILockable.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/util/Math3D.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/util/StreamBuffer.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/include/util/ThreadPool.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/ffmpeg/FFMPEG.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/ffmpeg/FFMPEG.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/ffmpeg/FFMPEGReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/ffmpeg/FFMPEGReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/ffmpeg/FFMPEGWriter.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/ffmpeg/FFMPEGWriter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/libsndfile/SndFile.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/libsndfile/SndFile.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/libsndfile/SndFileReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/libsndfile/SndFileReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/libsndfile/SndFileWriter.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/libsndfile/SndFileWriter.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/openal/OpenALDevice.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/openal/OpenALDevice.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/openal/OpenALReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/openal/OpenALReader.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/sdl/SDLDevice.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/plugins/sdl/SDLDevice.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/Exception.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/devices/DefaultSynchronizer.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/devices/DeviceManager.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/devices/NULLDevice.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/devices/ReadDevice.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/devices/SoftwareDevice.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/file/File.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/file/FileManager.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/file/FileWriter.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/ADSR.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/ADSRReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Accumulator.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/BaseIIRFilterReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Butterworth.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/ButterworthCalculator.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/CallbackIIRFilterReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Delay.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/DelayReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/DynamicIIRFilter.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/DynamicIIRFilterReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/DynamicMusic.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Effect.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/EffectReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Envelope.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Fader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/FaderReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Highpass.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/HighpassCalculator.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/IIRFilter.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/IIRFilterReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Limiter.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/LimiterReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Loop.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/LoopReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Lowpass.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/LowpassCalculator.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Modulator.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/ModulatorReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/MutableReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/MutableSound.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Pitch.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/PitchReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/PlaybackCategory.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/PlaybackManager.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Reverse.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/ReverseReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/SoundList.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Source.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Sum.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Threshold.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/Volume.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/VolumeReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/VolumeSound.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/fx/VolumeStorage.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/Sawtooth.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/SawtoothReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/Silence.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/SilenceReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/Sine.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/SineReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/Square.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/SquareReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/Triangle.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/generator/TriangleReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/ChannelMapper.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/ChannelMapperReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/Converter.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/ConverterFunctions.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/ConverterReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/JOSResample.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/JOSResampleReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/JOSResampleReaderCoeff.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/LinearResample.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/LinearResampleReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/Mixer.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/ResampleReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/respec/SpecsChanger.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/AnimateableProperty.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/Double.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/DoubleReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/PingPong.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/Sequence.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/SequenceData.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/SequenceEntry.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/SequenceHandle.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/SequenceHandle.h">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/SequenceReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/Superpose.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/sequence/SuperposeReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/util/Barrier.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/util/Buffer.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/util/BufferReader.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/util/StreamBuffer.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/util/ThreadPool.cpp">
+			<Option target="audaspace"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/packaging.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/platform/platform_apple.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/platform/platform_apple_xcode.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\platform\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/Modules/FindEmbree.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/Modules/FindOpenImageDenoise.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/Modules/FindTBB.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/build_files/cmake/Modules/FindUSD.cmake">
+			<Option virtualFolder="CMake Files\build_files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel/BKE_blender_version.h">
+			<Option virtualFolder="CMake Files\source\blender\blenkernel\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\blenkernel\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/datatoc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\datatoc\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/animation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\animation\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/armature/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\armature\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/curve/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\curve\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/geometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\geometry\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/gizmo_library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\gizmo_library\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/gpencil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\gpencil\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/interface/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\interface\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\io\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/lattice/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\lattice\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/mask/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\mask\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/mesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\mesh\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/metaball/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\metaball\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/object/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\object\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/physics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\physics\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\render\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/scene/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\scene\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/sculpt_paint/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\sculpt_paint\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/sound/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\sound\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_action/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_action\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_api/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_api\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_buttons/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_buttons\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_clip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_clip\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_console/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_console\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_file/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_file\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_graph\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_image\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_info/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_info\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_nla/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_nla\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_node/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_node\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_outliner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_outliner\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_script/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_script\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_sequencer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_sequencer\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_statusbar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_statusbar\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_text/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_text\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_topbar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_topbar\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_userpref/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_userpref\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/space_view3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\space_view3d\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/transform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\transform\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/undo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\undo\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\util\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/uvedit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\uvedit\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/screen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\screen\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/datafiles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\editors\datafiles\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/windowmanager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\windowmanager\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\blenlib\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/bmesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\bmesh\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\draw\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\render\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\blenfont\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/blentranslation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\blentranslation\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/blentranslation/msgfmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\blentranslation\msgfmt\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/blenloader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\blenloader\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/depsgraph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\depsgraph\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/ikplugin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\ikplugin\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/simulation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\simulation\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\gpu\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/imbuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\imbuf\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/imbuf/intern/openexr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\imbuf\intern\openexr\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/imbuf/intern/oiio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\imbuf\intern\oiio\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/imbuf/intern/dds/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\imbuf\intern\dds\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/imbuf/intern/cineon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\imbuf\intern\cineon\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/nodes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\nodes\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/modifiers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\modifiers\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/gpencil_modifiers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\gpencil_modifiers\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/shader_fx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\shader_fx\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\io\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\io\common\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\io\alembic\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/avi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\io\avi\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/collada/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\io\collada\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/usd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\io\usd\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\functions\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\makesdna\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna/intern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\makesdna\intern\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\makesrna\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna/intern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\makesrna\intern\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/compositor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\compositor\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\python\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/python/intern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\python\intern\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/python/generic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\python\generic\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/python/gpu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\python\gpu\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/python/mathutils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\python\mathutils\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/python/bmesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\python\bmesh\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\blender\freestyle\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/creator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\source\creator\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/clog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\clog\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/ghost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\ghost\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\guardedalloc\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/libmv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\libmv\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/memutil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\memutil\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/numaapi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\numaapi\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/opencolorio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\opencolorio\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/opensubdiv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\opensubdiv\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/mikktspace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\mikktspace\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\glew-mx\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/eigen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\eigen\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/sky/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\sky\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/audaspace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\audaspace\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/dualcon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\dualcon\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/iksolver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\iksolver\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/itasc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\itasc\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/cmake/external_libs.cmake">
+			<Option virtualFolder="CMake Files\intern\cycles\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/cmake/macros.cmake">
+			<Option virtualFolder="CMake Files\intern\cycles\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/blender/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\blender\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/bvh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\bvh\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/device/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\device\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\doc\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/doc/license/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\doc\license\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\graph\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/kernel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\kernel\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/kernel/osl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\kernel\osl\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/kernel/shaders/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\kernel\shaders\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/render/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\render\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/subd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\subd\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/cycles/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\cycles\util\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/locale/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\locale\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/rigidbody/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\rigidbody\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/mantaflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\mantaflow\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/openvdb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\openvdb\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/quadriflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\quadriflow\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/intern/ffmpeg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\intern\ffmpeg\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/curve_fit_nd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\curve_fit_nd\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/rangetree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\rangetree\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/wcwidth/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\wcwidth\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/bullet2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\bullet2\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/draco/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\draco\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/draco/dracoenc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\draco\dracoenc\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/glew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glew\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/lzo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\lzo\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/lzma/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\lzma\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/clew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\clew\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/cuew/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\cuew\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/ceres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\ceres\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/gflags/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/glog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\glog\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\audaspace\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/blender_config.cmake">
+			<Option virtualFolder="CMake Files\extern\audaspace\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/config/Audaspace.h.in">
+			<Option virtualFolder="CMake Files\extern\audaspace\config\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/src/plugin/PluginManagerUnix.cpp.in">
+			<Option virtualFolder="CMake Files\extern\audaspace\src\plugin\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/quadriflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\quadriflow\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/quadriflow/3rd/lemon-1.3.1/lemon/config.h.in">
+			<Option virtualFolder="CMake Files\extern\quadriflow\3rd\lemon-1.3.1\lemon\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/extern/mantaflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\extern\mantaflow\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/release/darwin/Blender.app/Contents/Info.plist">
+			<Option virtualFolder="CMake Files\release\darwin\Blender.app\Contents\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/tests/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\python\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/tests/python/collada/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\python\collada\"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/tests/gtests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\gtests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

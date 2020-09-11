@@ -1,21 +1,3 @@
-
-
-// DO NOT EDIT !
-// This file is generated using the MantaFlow preprocessor (prep generate).
-
-// ----------------------------------------------------------------------------
-//
-// MantaFlow fluid solver framework
-// Copyright 2016-2017 Kiwon Um, Nils Thuerey
-//
-// This program is free software, distributed under the terms of the
-// Apache License, Version 2.0
-// http://www.apache.org/licenses/LICENSE-2.0
-//
-// Affine Particle-In-Cell
-//
-// ----------------------------------------------------------------------------
-
 #include "particle.h"
 #include "grid.h"
 

@@ -1,0 +1,10 @@
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/anirudh/workspace/blender-git/blender
+-- Detected OS X 10.15.6 and Xcode 11.7 at /Applications/Xcode.app
+-- OSX_SYSROOT_PREFIX: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform
+-- Detected OSX_SYSROOT: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
+-- Using /Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp for OpenMP
+-- Tests: Using Python executable: /Users/anirudh/workspace/blender-git/blender/../lib/darwin/python/bin/python3.7m
+-- Disabling render tests because tests folder does not exist at /Users/anirudh/workspace/blender-git/blender/../lib/tests
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug

@@ -1,0 +1,833 @@
+The system is: Darwin - 19.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ab8f2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ab8f2.dir/build.make CMakeFiles/cmTC_ab8f2.dir/build
+Building C object CMakeFiles/cmTC_ab8f2.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ab8f2.dir/testCCompiler.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ab8f2
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ab8f2.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ab8f2.dir/testCCompiler.c.o  -o cmTC_ab8f2 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10cde/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_10cde.dir/build.make CMakeFiles/cmTC_10cde.dir/build
+Building C object CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o   -c "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c"
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.6 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o -x c "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c"
+clang -cc1 version 11.0.3 (clang-1103.0.32.62) default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_10cde
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_10cde.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o  -o cmTC_10cde 
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_10cde -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 18:54:40 Jun  2 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_10cde/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_10cde.dir/build.make CMakeFiles/cmTC_10cde.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o   -c "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.62)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.6 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o -x c "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c"]
+  ignore line: [clang -cc1 version 11.0.3 (clang-1103.0.32.62) default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_10cde]
+  ignore line: ["/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_10cde.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o  -o cmTC_10cde ]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.62)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_10cde -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [10.15.6] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_10cde] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_10cde.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf427/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cf427.dir/build.make CMakeFiles/cmTC_cf427.dir/build
+Building CXX object CMakeFiles/cmTC_cf427.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cf427.dir/testCXXCompiler.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_cf427
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_cf427.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cf427.dir/testCXXCompiler.cxx.o  -o cmTC_cf427 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3bb0c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3bb0c.dir/build.make CMakeFiles/cmTC_3bb0c.dir/build
+Building CXX object CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl,-v -o CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.6 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o -x c++ "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+clang -cc1 version 11.0.3 (clang-1103.0.32.62) default target x86_64-apple-darwin19.6.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_3bb0c
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3bb0c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3bb0c 
+Apple clang version 11.0.3 (clang-1103.0.32.62)
+Target: x86_64-apple-darwin19.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_3bb0c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-556.6
+BUILD 18:54:40 Jun  2 2020
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_3bb0c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3bb0c.dir/build.make CMakeFiles/cmTC_3bb0c.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -v -Wl -v -o CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o -c "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.62)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mthread-model posix -mframe-pointer=all -fno-strict-return -masm-verbose -munwind-tables -target-sdk-version=10.15.6 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -target-linker-version 556.6 -v -coverage-notes-file /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-objc-signed-char-bool-implicit-int-conversion -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -fdeprecated-macro -fdebug-compilation-dir /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o -x c++ "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [clang -cc1 version 11.0.3 (clang-1103.0.32.62) default target x86_64-apple-darwin19.6.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/c++/v1"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_3bb0c]
+  ignore line: ["/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3bb0c.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3bb0c ]
+  ignore line: [Apple clang version 11.0.3 (clang-1103.0.32.62)]
+  ignore line: [Target: x86_64-apple-darwin19.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.15.0 10.15.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_3bb0c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.15.0] ==> ignore
+    arg [10.15.6] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3bb0c] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_3bb0c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test SUPPORT_SSE_BUILD succeeded with the following compile output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7087b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7087b.dir/build.make CMakeFiles/cmTC_7087b.dir/build
+Building C object CMakeFiles/cmTC_7087b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -DSUPPORT_SSE_BUILD -msse -msse2 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_7087b.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7087b
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7087b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -DSUPPORT_SSE_BUILD -msse -msse2 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7087b.dir/src.c.o  -o cmTC_7087b 
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+      #include <xmmintrin.h>
+      int main(void) { __m128 v = _mm_setzero_ps(); return 0; }
+Performing C SOURCE FILE Test SUPPORT_SSE2_BUILD succeeded with the following compile output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_69fc7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_69fc7.dir/build.make CMakeFiles/cmTC_69fc7.dir/build
+Building C object CMakeFiles/cmTC_69fc7.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -DSUPPORT_SSE2_BUILD -msse -msse2 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_69fc7.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_69fc7
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_69fc7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -DSUPPORT_SSE2_BUILD -msse -msse2 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_69fc7.dir/src.c.o  -o cmTC_69fc7 
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+      #include <emmintrin.h>
+      int main(void) { __m128d v = _mm_setzero_pd(); return 0; }
+Performing C SOURCE FILE Test C_WARN_ALL succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ee93/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5ee93.dir/build.make CMakeFiles/cmTC_5ee93.dir/build
+Building C object CMakeFiles/cmTC_5ee93.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_ALL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wall -o CMakeFiles/cmTC_5ee93.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5ee93
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_5ee93.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_ALL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_5ee93.dir/src.c.o  -o cmTC_5ee93 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_ERROR_IMPLICIT_FUNCTION_DECLARATION succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d420/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3d420.dir/build.make CMakeFiles/cmTC_3d420.dir/build
+Building C object CMakeFiles/cmTC_3d420.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_ERROR_IMPLICIT_FUNCTION_DECLARATION -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Werror=implicit-function-declaration -o CMakeFiles/cmTC_3d420.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3d420
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3d420.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_ERROR_IMPLICIT_FUNCTION_DECLARATION -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_3d420.dir/src.c.o  -o cmTC_3d420 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_ERROR_RETURN_TYPE succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62dac/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_62dac.dir/build.make CMakeFiles/cmTC_62dac.dir/build
+Building C object CMakeFiles/cmTC_62dac.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_ERROR_RETURN_TYPE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Werror=return-type -o CMakeFiles/cmTC_62dac.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_62dac
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_62dac.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_ERROR_RETURN_TYPE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_62dac.dir/src.c.o  -o cmTC_62dac 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_AUTOLOGICAL_COMPARE succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80633/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_80633.dir/build.make CMakeFiles/cmTC_80633.dir/build
+Building C object CMakeFiles/cmTC_80633.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_AUTOLOGICAL_COMPARE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-tautological-compare -o CMakeFiles/cmTC_80633.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_80633
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_80633.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_AUTOLOGICAL_COMPARE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_80633.dir/src.c.o  -o cmTC_80633 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_UNKNOWN_PRAGMAS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_318af/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_318af.dir/build.make CMakeFiles/cmTC_318af.dir/build
+Building C object CMakeFiles/cmTC_318af.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNKNOWN_PRAGMAS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unknown-pragmas -o CMakeFiles/cmTC_318af.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_318af
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_318af.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNKNOWN_PRAGMAS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_318af.dir/src.c.o  -o cmTC_318af 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_CHAR_SUBSCRIPTS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3fc04/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3fc04.dir/build.make CMakeFiles/cmTC_3fc04.dir/build
+Building C object CMakeFiles/cmTC_3fc04.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_CHAR_SUBSCRIPTS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-char-subscripts -o CMakeFiles/cmTC_3fc04.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3fc04
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3fc04.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_CHAR_SUBSCRIPTS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_3fc04.dir/src.c.o  -o cmTC_3fc04 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_STRICT_PROTOTYPES succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1494/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e1494.dir/build.make CMakeFiles/cmTC_e1494.dir/build
+Building C object CMakeFiles/cmTC_e1494.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_STRICT_PROTOTYPES -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wstrict-prototypes -o CMakeFiles/cmTC_e1494.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e1494
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e1494.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_STRICT_PROTOTYPES -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_e1494.dir/src.c.o  -o cmTC_e1494 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_MISSING_PROTOTYPES succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60470/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_60470.dir/build.make CMakeFiles/cmTC_60470.dir/build
+Building C object CMakeFiles/cmTC_60470.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_MISSING_PROTOTYPES -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wmissing-prototypes -o CMakeFiles/cmTC_60470.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_60470
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_60470.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_MISSING_PROTOTYPES -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_60470.dir/src.c.o  -o cmTC_60470 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8a9da/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8a9da.dir/build.make CMakeFiles/cmTC_8a9da.dir/build
+Building C object CMakeFiles/cmTC_8a9da.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_UNUSED_PARAMETER -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wunused-parameter -o CMakeFiles/cmTC_8a9da.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8a9da
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_8a9da.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_UNUSED_PARAMETER -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_8a9da.dir/src.c.o  -o cmTC_8a9da 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_ALL succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_018ed/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_018ed.dir/build.make CMakeFiles/cmTC_018ed.dir/build
+Building CXX object CMakeFiles/cmTC_018ed.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_ALL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wall -o CMakeFiles/cmTC_018ed.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_018ed
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_018ed.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_ALL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_018ed.dir/src.cxx.o  -o cmTC_018ed 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_AUTOLOGICAL_COMPARE succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_973e4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_973e4.dir/build.make CMakeFiles/cmTC_973e4.dir/build
+Building CXX object CMakeFiles/cmTC_973e4.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_AUTOLOGICAL_COMPARE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-tautological-compare -o CMakeFiles/cmTC_973e4.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_973e4
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_973e4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_AUTOLOGICAL_COMPARE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_973e4.dir/src.cxx.o  -o cmTC_973e4 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_UNKNOWN_PRAGMAS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_052dd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_052dd.dir/build.make CMakeFiles/cmTC_052dd.dir/build
+Building CXX object CMakeFiles/cmTC_052dd.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNKNOWN_PRAGMAS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unknown-pragmas -o CMakeFiles/cmTC_052dd.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_052dd
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_052dd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNKNOWN_PRAGMAS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_052dd.dir/src.cxx.o  -o cmTC_052dd 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_CHAR_SUBSCRIPTS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2ae4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_f2ae4.dir/build.make CMakeFiles/cmTC_f2ae4.dir/build
+Building CXX object CMakeFiles/cmTC_f2ae4.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_CHAR_SUBSCRIPTS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-char-subscripts -o CMakeFiles/cmTC_f2ae4.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f2ae4
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_f2ae4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_CHAR_SUBSCRIPTS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_f2ae4.dir/src.cxx.o  -o cmTC_f2ae4 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_OVERLOADED_VIRTUAL succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35428/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_35428.dir/build.make CMakeFiles/cmTC_35428.dir/build
+Building CXX object CMakeFiles/cmTC_35428.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_OVERLOADED_VIRTUAL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-overloaded-virtual -o CMakeFiles/cmTC_35428.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35428
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_35428.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_OVERLOADED_VIRTUAL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_35428.dir/src.cxx.o  -o cmTC_35428 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_SIGN_COMPARE succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_512fc/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_512fc.dir/build.make CMakeFiles/cmTC_512fc.dir/build
+Building CXX object CMakeFiles/cmTC_512fc.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_SIGN_COMPARE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-sign-compare -o CMakeFiles/cmTC_512fc.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_512fc
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_512fc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_SIGN_COMPARE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_512fc.dir/src.cxx.o  -o cmTC_512fc 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_INVALID_OFFSETOF succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a77d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1a77d.dir/build.make CMakeFiles/cmTC_1a77d.dir/build
+Building CXX object CMakeFiles/cmTC_1a77d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_INVALID_OFFSETOF -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-invalid-offsetof -o CMakeFiles/cmTC_1a77d.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a77d
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_1a77d.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_INVALID_OFFSETOF -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_1a77d.dir/src.cxx.o  -o cmTC_1a77d 
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42ed9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_42ed9.dir/build.make CMakeFiles/cmTC_42ed9.dir/build
+Building C object CMakeFiles/cmTC_42ed9.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_PARAMETER -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unused-parameter -o CMakeFiles/cmTC_42ed9.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_42ed9
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_42ed9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_PARAMETER -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_42ed9.dir/src.c.o  -o cmTC_42ed9 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_UNUSED_VARIABLE succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_971b9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_971b9.dir/build.make CMakeFiles/cmTC_971b9.dir/build
+Building C object CMakeFiles/cmTC_971b9.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_VARIABLE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unused-variable -o CMakeFiles/cmTC_971b9.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_971b9
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_971b9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_VARIABLE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_971b9.dir/src.c.o  -o cmTC_971b9 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_UNUSED_MACROS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8587f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8587f.dir/build.make CMakeFiles/cmTC_8587f.dir/build
+Building C object CMakeFiles/cmTC_8587f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_MACROS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unused-macros -o CMakeFiles/cmTC_8587f.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8587f
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_8587f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_MACROS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_8587f.dir/src.c.o  -o cmTC_8587f 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_MISSING_VARIABLE_DECLARATIONS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51e3b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_51e3b.dir/build.make CMakeFiles/cmTC_51e3b.dir/build
+Building C object CMakeFiles/cmTC_51e3b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_MISSING_VARIABLE_DECLARATIONS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-missing-variable-declarations -o CMakeFiles/cmTC_51e3b.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_51e3b
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_51e3b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_MISSING_VARIABLE_DECLARATIONS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_51e3b.dir/src.c.o  -o cmTC_51e3b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_INCOMPAT_PTR_DISCARD_QUAL succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8539/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8539.dir/build.make CMakeFiles/cmTC_e8539.dir/build
+Building C object CMakeFiles/cmTC_e8539.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_INCOMPAT_PTR_DISCARD_QUAL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-incompatible-pointer-types-discards-qualifiers -o CMakeFiles/cmTC_e8539.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8539
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e8539.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_INCOMPAT_PTR_DISCARD_QUAL -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_e8539.dir/src.c.o  -o cmTC_e8539 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_UNUSED_FUNCTION succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4ffd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a4ffd.dir/build.make CMakeFiles/cmTC_a4ffd.dir/build
+Building C object CMakeFiles/cmTC_a4ffd.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_FUNCTION -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unused-function -o CMakeFiles/cmTC_a4ffd.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4ffd
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a4ffd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNUSED_FUNCTION -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_a4ffd.dir/src.c.o  -o cmTC_a4ffd 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_INT_TO_VOID_POINTER_CAST succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_332df/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_332df.dir/build.make CMakeFiles/cmTC_332df.dir/build
+Building C object CMakeFiles/cmTC_332df.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_INT_TO_VOID_POINTER_CAST -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-int-to-void-pointer-cast -o CMakeFiles/cmTC_332df.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_332df
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_332df.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_INT_TO_VOID_POINTER_CAST -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_332df.dir/src.c.o  -o cmTC_332df 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_MISSING_PROTOTYPES succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e97b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4e97b.dir/build.make CMakeFiles/cmTC_4e97b.dir/build
+Building C object CMakeFiles/cmTC_4e97b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_MISSING_PROTOTYPES -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-missing-prototypes -o CMakeFiles/cmTC_4e97b.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4e97b
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_4e97b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_MISSING_PROTOTYPES -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_4e97b.dir/src.c.o  -o cmTC_4e97b 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_DUPLICATE_ENUM succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1099/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a1099.dir/build.make CMakeFiles/cmTC_a1099.dir/build
+Building C object CMakeFiles/cmTC_a1099.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_DUPLICATE_ENUM -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-duplicate-enum -o CMakeFiles/cmTC_a1099.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a1099
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a1099.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_DUPLICATE_ENUM -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_a1099.dir/src.c.o  -o cmTC_a1099 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_UNDEF succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53987/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_53987.dir/build.make CMakeFiles/cmTC_53987.dir/build
+Building C object CMakeFiles/cmTC_53987.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNDEF -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-undef -o CMakeFiles/cmTC_53987.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_53987
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_53987.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_UNDEF -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_53987.dir/src.c.o  -o cmTC_53987 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WARN_NO_MISSING_NORETURN succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac0b3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ac0b3.dir/build.make CMakeFiles/cmTC_ac0b3.dir/build
+Building C object CMakeFiles/cmTC_ac0b3.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_MISSING_NORETURN -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-missing-noreturn -o CMakeFiles/cmTC_ac0b3.dir/src.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ac0b3
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_ac0b3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -mmacosx-version-min=10.13 -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DC_WARN_NO_MISSING_NORETURN -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_ac0b3.dir/src.c.o  -o cmTC_ac0b3 
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_UNUSED_PRIVATE_FIELD succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7734a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7734a.dir/build.make CMakeFiles/cmTC_7734a.dir/build
+Building CXX object CMakeFiles/cmTC_7734a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNUSED_PRIVATE_FIELD -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unused-private-field -o CMakeFiles/cmTC_7734a.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7734a
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7734a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNUSED_PRIVATE_FIELD -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_7734a.dir/src.cxx.o  -o cmTC_7734a 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_CXX11_NARROWING succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb26c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_bb26c.dir/build.make CMakeFiles/cmTC_bb26c.dir/build
+Building CXX object CMakeFiles/cmTC_bb26c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_CXX11_NARROWING -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-c++11-narrowing -o CMakeFiles/cmTC_bb26c.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bb26c
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_bb26c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_CXX11_NARROWING -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_bb26c.dir/src.cxx.o  -o cmTC_bb26c 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_NON_VIRTUAL_DTOR succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fab81/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fab81.dir/build.make CMakeFiles/cmTC_fab81.dir/build
+Building CXX object CMakeFiles/cmTC_fab81.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_NON_VIRTUAL_DTOR -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-non-virtual-dtor -o CMakeFiles/cmTC_fab81.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fab81
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_fab81.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_NON_VIRTUAL_DTOR -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_fab81.dir/src.cxx.o  -o cmTC_fab81 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_UNUSED_MACROS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a477/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3a477.dir/build.make CMakeFiles/cmTC_3a477.dir/build
+Building CXX object CMakeFiles/cmTC_3a477.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNUSED_MACROS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unused-macros -o CMakeFiles/cmTC_3a477.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3a477
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3a477.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNUSED_MACROS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_3a477.dir/src.cxx.o  -o cmTC_3a477 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_REORDER succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31c53/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_31c53.dir/build.make CMakeFiles/cmTC_31c53.dir/build
+Building CXX object CMakeFiles/cmTC_31c53.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_REORDER -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-reorder -o CMakeFiles/cmTC_31c53.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_31c53
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_31c53.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_REORDER -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_31c53.dir/src.cxx.o  -o cmTC_31c53 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_COMMENT succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c3eb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1c3eb.dir/build.make CMakeFiles/cmTC_1c3eb.dir/build
+Building CXX object CMakeFiles/cmTC_1c3eb.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_COMMENT -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-comment -o CMakeFiles/cmTC_1c3eb.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1c3eb
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_1c3eb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_COMMENT -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_1c3eb.dir/src.cxx.o  -o cmTC_1c3eb 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_UNUSED_TYPEDEFS succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dd8c0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_dd8c0.dir/build.make CMakeFiles/cmTC_dd8c0.dir/build
+Building CXX object CMakeFiles/cmTC_dd8c0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNUSED_TYPEDEFS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-unused-local-typedefs -o CMakeFiles/cmTC_dd8c0.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dd8c0
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_dd8c0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNUSED_TYPEDEFS -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_dd8c0.dir/src.cxx.o  -o cmTC_dd8c0 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_UNDEFINED_VAR_TEMPLATE succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77eaf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_77eaf.dir/build.make CMakeFiles/cmTC_77eaf.dir/build
+Building CXX object CMakeFiles/cmTC_77eaf.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNDEFINED_VAR_TEMPLATE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-undefined-var-template -o CMakeFiles/cmTC_77eaf.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_77eaf
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_77eaf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_UNDEFINED_VAR_TEMPLATE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_77eaf.dir/src.cxx.o  -o cmTC_77eaf 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WARN_NO_INSTANTIATION_AFTER_SPECIALIZATION succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1dd0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e1dd0.dir/build.make CMakeFiles/cmTC_e1dd0.dir/build
+Building CXX object CMakeFiles/cmTC_e1dd0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_INSTANTIATION_AFTER_SPECIALIZATION -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -Wno-instantiation-after-specialization -o CMakeFiles/cmTC_e1dd0.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e1dd0
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e1dd0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -DCXX_WARN_NO_INSTANTIATION_AFTER_SPECIALIZATION -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_e1dd0.dir/src.cxx.o  -o cmTC_e1dd0 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_SSE succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c727/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7c727.dir/build.make CMakeFiles/cmTC_7c727.dir/build
+Building CXX object CMakeFiles/cmTC_7c727.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -std=c++17   -msse -pipe -funsigned-char -msse2 -DCXX_HAS_SSE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -msse -o CMakeFiles/cmTC_7c727.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7c727
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7c727.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -std=c++17   -msse -pipe -funsigned-char -msse2 -DCXX_HAS_SSE -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_7c727.dir/src.cxx.o  -o cmTC_7c727 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_AVX succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47304/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_47304.dir/build.make CMakeFiles/cmTC_47304.dir/build
+Building CXX object CMakeFiles/cmTC_47304.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -std=c++17   -msse -pipe -funsigned-char -msse2 -DCXX_HAS_AVX -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -mavx -o CMakeFiles/cmTC_47304.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_47304
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_47304.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -std=c++17   -msse -pipe -funsigned-char -msse2 -DCXX_HAS_AVX -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_47304.dir/src.cxx.o  -o cmTC_47304 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_AVX2 succeeded with the following output:
+Change Dir: /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5aecd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5aecd.dir/build.make CMakeFiles/cmTC_5aecd.dir/build
+Building CXX object CMakeFiles/cmTC_5aecd.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -std=c++17   -msse -pipe -funsigned-char -msse2 -DCXX_HAS_AVX2 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13   -mavx2 -o CMakeFiles/cmTC_5aecd.dir/src.cxx.o -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5aecd
+"/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6397.106/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_5aecd.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include' -std=c++17   -msse -pipe -funsigned-char -msse2 -DCXX_HAS_AVX2 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L'/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/lib' -lomp  CMakeFiles/cmTC_5aecd.dir/src.cxx.o  -o cmTC_5aecd 
+
+
+Source file was:
+int main() { return 0; }
