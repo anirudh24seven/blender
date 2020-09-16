@@ -57,7 +57,7 @@ struct DDSCaps {
   uint caps4;
 };
 
-/// DDS file header for DX10.
+/** DDS file header for DX10. */
 struct DDSHeader10 {
   uint dxgiFormat;
   uint resourceDimension;
@@ -66,7 +66,7 @@ struct DDSHeader10 {
   uint reserved;
 };
 
-/// DDS file header.
+/** DDS file header. */
 struct DDSHeader {
   uint fourcc;
   uint size;
@@ -116,7 +116,7 @@ struct DDSHeader {
   uint d3d9Format() const;
 };
 
-/// DirectDraw Surface. (DDS)
+/** DirectDraw Surface. (DDS) */
 class DirectDrawSurface {
  public:
   DirectDrawSurface(unsigned char *mem, uint size);

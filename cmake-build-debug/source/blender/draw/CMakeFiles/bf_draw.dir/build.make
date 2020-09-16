@@ -1367,39 +1367,45 @@ source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl.c: bin/dat
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E make_directory /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && ../../../bin/datatoc /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl.c
 
+source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c: ../source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl
+source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c: bin/datatoc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Generating engines/overlay/shaders/volume_gridlines_vert.glsl.c"
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E make_directory /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && ../../../bin/datatoc /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c
+
 source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl.c: ../source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl
 source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl.c: bin/datatoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Generating engines/overlay/shaders/wireframe_vert.glsl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Generating engines/overlay/shaders/wireframe_vert.glsl.c"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E make_directory /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && ../../../bin/datatoc /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl.c
 
 source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl.c: ../source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl
 source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl.c: bin/datatoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Generating engines/overlay/shaders/wireframe_frag.glsl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Generating engines/overlay/shaders/wireframe_frag.glsl.c"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E make_directory /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && ../../../bin/datatoc /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl.c
 
 source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl.c: ../source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl
 source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl.c: bin/datatoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Generating engines/overlay/shaders/xray_fade_frag.glsl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Generating engines/overlay/shaders/xray_fade_frag.glsl.c"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E make_directory /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && ../../../bin/datatoc /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl.c
 
 source/blender/draw/engines/image/shaders/engine_image_frag.glsl.c: ../source/blender/draw/engines/image/shaders/engine_image_frag.glsl
 source/blender/draw/engines/image/shaders/engine_image_frag.glsl.c: bin/datatoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Generating engines/image/shaders/engine_image_frag.glsl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Generating engines/image/shaders/engine_image_frag.glsl.c"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E make_directory /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/image/shaders
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && ../../../bin/datatoc /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/image/shaders/engine_image_frag.glsl /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/image/shaders/engine_image_frag.glsl.c
 
 source/blender/draw/engines/image/shaders/engine_image_vert.glsl.c: ../source/blender/draw/engines/image/shaders/engine_image_vert.glsl
 source/blender/draw/engines/image/shaders/engine_image_vert.glsl.c: bin/datatoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Generating engines/image/shaders/engine_image_vert.glsl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Generating engines/image/shaders/engine_image_vert.glsl.c"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && "/Users/anirudh/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E make_directory /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/image/shaders
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && ../../../bin/datatoc /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/image/shaders/engine_image_vert.glsl /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/image/shaders/engine_image_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache.c.o: ../source/blender/draw/intern/draw_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache.c.i: cmake_force
@@ -1412,7 +1418,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache.c.s: cmake_force
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_extract_mesh.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_extract_mesh.c.o: ../source/blender/draw/intern/draw_cache_extract_mesh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_extract_mesh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_extract_mesh.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_extract_mesh.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_extract_mesh.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_extract_mesh.c.i: cmake_force
@@ -1425,7 +1431,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_extract_mesh.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_curve.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_curve.c.o: ../source/blender/draw/intern/draw_cache_impl_curve.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_curve.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_curve.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_curve.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_curve.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_curve.c.i: cmake_force
@@ -1438,7 +1444,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_curve.c.s: cma
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_displist.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_displist.c.o: ../source/blender/draw/intern/draw_cache_impl_displist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_displist.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_displist.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_displist.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_displist.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_displist.c.i: cmake_force
@@ -1451,7 +1457,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_displist.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_gpencil.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_gpencil.c.o: ../source/blender/draw/intern/draw_cache_impl_gpencil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_gpencil.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_gpencil.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_gpencil.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_gpencil.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_gpencil.c.i: cmake_force
@@ -1464,7 +1470,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_gpencil.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_hair.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_hair.c.o: ../source/blender/draw/intern/draw_cache_impl_hair.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_hair.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_hair.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_hair.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_hair.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_hair.c.i: cmake_force
@@ -1477,7 +1483,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_hair.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_lattice.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_lattice.c.o: ../source/blender/draw/intern/draw_cache_impl_lattice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_lattice.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_lattice.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_lattice.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_lattice.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_lattice.c.i: cmake_force
@@ -1490,7 +1496,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_lattice.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_mesh.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_mesh.c.o: ../source/blender/draw/intern/draw_cache_impl_mesh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_mesh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_mesh.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_mesh.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_mesh.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_mesh.c.i: cmake_force
@@ -1503,7 +1509,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_mesh.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_metaball.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_metaball.c.o: ../source/blender/draw/intern/draw_cache_impl_metaball.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_metaball.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_metaball.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_metaball.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_metaball.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_metaball.c.i: cmake_force
@@ -1516,7 +1522,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_metaball.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_particles.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_particles.c.o: ../source/blender/draw/intern/draw_cache_impl_particles.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_particles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_particles.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_particles.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_particles.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_particles.c.i: cmake_force
@@ -1529,7 +1535,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_particles.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_pointcloud.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_pointcloud.c.o: ../source/blender/draw/intern/draw_cache_impl_pointcloud.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_pointcloud.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_pointcloud.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_pointcloud.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_pointcloud.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_pointcloud.c.i: cmake_force
@@ -1542,7 +1548,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_pointcloud.c.s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_volume.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_volume.c.o: ../source/blender/draw/intern/draw_cache_impl_volume.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_volume.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_volume.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_cache_impl_volume.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_cache_impl_volume.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_volume.c.i: cmake_force
@@ -1555,7 +1561,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_cache_impl_volume.c.s: cm
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_color_management.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_color_management.c.o: ../source/blender/draw/intern/draw_color_management.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_color_management.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_color_management.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_color_management.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_color_management.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_color_management.c.i: cmake_force
@@ -1568,7 +1574,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_color_management.c.s: cma
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_common.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_common.c.o: ../source/blender/draw/intern/draw_common.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_common.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_common.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_common.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_common.c.i: cmake_force
@@ -1581,7 +1587,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_common.c.s: cmake_force
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_debug.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_debug.c.o: ../source/blender/draw/intern/draw_debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_debug.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_debug.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_debug.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_debug.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_debug.c.i: cmake_force
@@ -1594,7 +1600,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_debug.c.s: cmake_force
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_fluid.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_fluid.c.o: ../source/blender/draw/intern/draw_fluid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_fluid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_fluid.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_fluid.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_fluid.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_fluid.c.i: cmake_force
@@ -1607,7 +1613,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_fluid.c.s: cmake_force
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_hair.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_hair.c.o: ../source/blender/draw/intern/draw_hair.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_hair.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_hair.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_hair.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_hair.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_hair.c.i: cmake_force
@@ -1620,7 +1626,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_hair.c.s: cmake_force
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_instance_data.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_instance_data.c.o: ../source/blender/draw/intern/draw_instance_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_instance_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_instance_data.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_instance_data.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_instance_data.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_instance_data.c.i: cmake_force
@@ -1633,7 +1639,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_instance_data.c.s: cmake_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager.c.o: ../source/blender/draw/intern/draw_manager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_manager.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_manager.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager.c.i: cmake_force
@@ -1646,7 +1652,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager.c.s: cmake_force
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_data.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_data.c.o: ../source/blender/draw/intern/draw_manager_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_data.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_manager_data.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_manager_data.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_data.c.i: cmake_force
@@ -1659,7 +1665,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_data.c.s: cmake_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_exec.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_exec.c.o: ../source/blender/draw/intern/draw_manager_exec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_exec.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_exec.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_manager_exec.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_manager_exec.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_exec.c.i: cmake_force
@@ -1672,7 +1678,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_exec.c.s: cmake_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_profiling.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_profiling.c.o: ../source/blender/draw/intern/draw_manager_profiling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_profiling.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_profiling.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_manager_profiling.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_manager_profiling.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_profiling.c.i: cmake_force
@@ -1685,7 +1691,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_profiling.c.s: cm
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_shader.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_shader.c.o: ../source/blender/draw/intern/draw_manager_shader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_shader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_shader.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_manager_shader.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_manager_shader.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_shader.c.i: cmake_force
@@ -1698,7 +1704,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_shader.c.s: cmake
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_text.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_text.c.o: ../source/blender/draw/intern/draw_manager_text.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_text.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_text.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_manager_text.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_manager_text.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_text.c.i: cmake_force
@@ -1711,7 +1717,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_text.c.s: cmake_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_texture.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_texture.c.o: ../source/blender/draw/intern/draw_manager_texture.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_texture.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_texture.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_manager_texture.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_manager_texture.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_texture.c.i: cmake_force
@@ -1724,7 +1730,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_manager_texture.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_select_buffer.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_select_buffer.c.o: ../source/blender/draw/intern/draw_select_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_select_buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_select_buffer.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_select_buffer.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_select_buffer.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_select_buffer.c.i: cmake_force
@@ -1737,7 +1743,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_select_buffer.c.s: cmake_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_view.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_view.c.o: ../source/blender/draw/intern/draw_view.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_view.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_view.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/draw_view.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern/draw_view.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_view.c.i: cmake_force
@@ -1750,7 +1756,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/draw_view.c.s: cmake_force
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/basic_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/basic_engine.c.o: ../source/blender/draw/engines/basic/basic_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/basic_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/basic_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/basic/basic_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/basic/basic_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/basic_engine.c.i: cmake_force
@@ -1763,7 +1769,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/basic_engine.c.s: cmake
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_engine.c.o: ../source/blender/draw/engines/image/image_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/image/image_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/image/image_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_engine.c.i: cmake_force
@@ -1776,7 +1782,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_engine.c.s: cmake
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_shader.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_shader.c.o: ../source/blender/draw/engines/image/image_shader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_shader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_shader.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/image/image_shader.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/image/image_shader.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_shader.c.i: cmake_force
@@ -1789,7 +1795,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/image_shader.c.s: cmake
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_bloom.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_bloom.c.o: ../source/blender/draw/engines/eevee/eevee_bloom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_bloom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_bloom.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_bloom.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_bloom.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_bloom.c.i: cmake_force
@@ -1802,7 +1808,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_bloom.c.s: cmake_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_data.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_data.c.o: ../source/blender/draw/engines/eevee/eevee_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_data.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_data.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_data.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_data.c.i: cmake_force
@@ -1815,7 +1821,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_data.c.s: cmake_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_depth_of_field.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_depth_of_field.c.o: ../source/blender/draw/engines/eevee/eevee_depth_of_field.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_depth_of_field.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_depth_of_field.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_depth_of_field.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_depth_of_field.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_depth_of_field.c.i: cmake_force
@@ -1828,7 +1834,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_depth_of_field.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_effects.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_effects.c.o: ../source/blender/draw/engines/eevee/eevee_effects.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_effects.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_effects.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_effects.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_effects.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_effects.c.i: cmake_force
@@ -1841,7 +1847,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_effects.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_engine.c.o: ../source/blender/draw/engines/eevee/eevee_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_engine.c.i: cmake_force
@@ -1854,7 +1860,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_engine.c.s: cmake
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightcache.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightcache.c.o: ../source/blender/draw/engines/eevee/eevee_lightcache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightcache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightcache.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightcache.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_lightcache.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightcache.c.i: cmake_force
@@ -1867,7 +1873,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightcache.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightprobes.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightprobes.c.o: ../source/blender/draw/engines/eevee/eevee_lightprobes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightprobes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightprobes.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightprobes.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_lightprobes.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightprobes.c.i: cmake_force
@@ -1880,7 +1886,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lightprobes.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lights.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lights.c.o: ../source/blender/draw/engines/eevee/eevee_lights.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lights.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lights.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_lights.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_lights.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lights.c.i: cmake_force
@@ -1893,7 +1899,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lights.c.s: cmake
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lookdev.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lookdev.c.o: ../source/blender/draw/engines/eevee/eevee_lookdev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lookdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lookdev.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_lookdev.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_lookdev.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lookdev.c.i: cmake_force
@@ -1906,7 +1912,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lookdev.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lut.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lut.c.o: ../source/blender/draw/engines/eevee/eevee_lut.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lut.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lut.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_lut.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_lut.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lut.c.i: cmake_force
@@ -1919,7 +1925,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_lut.c.s: cmake_fo
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_materials.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_materials.c.o: ../source/blender/draw/engines/eevee/eevee_materials.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_materials.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_materials.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_materials.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_materials.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_materials.c.i: cmake_force
@@ -1932,7 +1938,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_materials.c.s: cm
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_mist.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_mist.c.o: ../source/blender/draw/engines/eevee/eevee_mist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_mist.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_mist.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_mist.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_mist.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_mist.c.i: cmake_force
@@ -1945,7 +1951,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_mist.c.s: cmake_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_motion_blur.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_motion_blur.c.o: ../source/blender/draw/engines/eevee/eevee_motion_blur.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_motion_blur.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_motion_blur.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_motion_blur.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_motion_blur.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_motion_blur.c.i: cmake_force
@@ -1958,7 +1964,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_motion_blur.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_occlusion.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_occlusion.c.o: ../source/blender/draw/engines/eevee/eevee_occlusion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_occlusion.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_occlusion.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_occlusion.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_occlusion.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_occlusion.c.i: cmake_force
@@ -1971,7 +1977,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_occlusion.c.s: cm
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_render.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_render.c.o: ../source/blender/draw/engines/eevee/eevee_render.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_render.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_render.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_render.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_render.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_render.c.i: cmake_force
@@ -1984,7 +1990,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_render.c.s: cmake
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_renderpasses.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_renderpasses.c.o: ../source/blender/draw/engines/eevee/eevee_renderpasses.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_renderpasses.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_renderpasses.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_renderpasses.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_renderpasses.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_renderpasses.c.i: cmake_force
@@ -1997,7 +2003,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_renderpasses.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_sampling.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_sampling.c.o: ../source/blender/draw/engines/eevee/eevee_sampling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_sampling.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_sampling.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_sampling.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_sampling.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_sampling.c.i: cmake_force
@@ -2010,7 +2016,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_sampling.c.s: cma
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_screen_raytrace.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_screen_raytrace.c.o: ../source/blender/draw/engines/eevee/eevee_screen_raytrace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_screen_raytrace.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_screen_raytrace.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_screen_raytrace.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_screen_raytrace.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_screen_raytrace.c.i: cmake_force
@@ -2023,7 +2029,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_screen_raytrace.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shaders.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shaders.c.o: ../source/blender/draw/engines/eevee/eevee_shaders.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shaders.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shaders.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_shaders.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_shaders.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shaders.c.i: cmake_force
@@ -2036,7 +2042,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shaders.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows.c.o: ../source/blender/draw/engines/eevee/eevee_shadows.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_shadows.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows.c.i: cmake_force
@@ -2049,7 +2055,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cascade.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cascade.c.o: ../source/blender/draw/engines/eevee/eevee_shadows_cascade.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cascade.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cascade.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cascade.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_shadows_cascade.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cascade.c.i: cmake_force
@@ -2062,7 +2068,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cascade.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cube.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cube.c.o: ../source/blender/draw/engines/eevee/eevee_shadows_cube.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cube.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cube.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cube.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_shadows_cube.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cube.c.i: cmake_force
@@ -2075,7 +2081,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_shadows_cube.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_subsurface.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_subsurface.c.o: ../source/blender/draw/engines/eevee/eevee_subsurface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_subsurface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_subsurface.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_subsurface.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_subsurface.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_subsurface.c.i: cmake_force
@@ -2088,7 +2094,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_subsurface.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_temporal_sampling.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_temporal_sampling.c.o: ../source/blender/draw/engines/eevee/eevee_temporal_sampling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_temporal_sampling.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_temporal_sampling.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_temporal_sampling.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_temporal_sampling.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_temporal_sampling.c.i: cmake_force
@@ -2101,7 +2107,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_temporal_sampling
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_volumes.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_volumes.c.o: ../source/blender/draw/engines/eevee/eevee_volumes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_volumes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_volumes.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/eevee_volumes.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/eevee/eevee_volumes.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_volumes.c.i: cmake_force
@@ -2114,7 +2120,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/eevee_volumes.c.s: cmak
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_data.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_data.c.o: ../source/blender/draw/engines/workbench/workbench_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_data.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_data.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_data.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_data.c.i: cmake_force
@@ -2127,7 +2133,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_data.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_antialiasing.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_antialiasing.c.o: ../source/blender/draw/engines/workbench/workbench_effect_antialiasing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_antialiasing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_antialiasing.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_antialiasing.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_effect_antialiasing.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_antialiasing.c.i: cmake_force
@@ -2140,7 +2146,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_an
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_cavity.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_cavity.c.o: ../source/blender/draw/engines/workbench/workbench_effect_cavity.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_cavity.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_cavity.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_cavity.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_effect_cavity.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_cavity.c.i: cmake_force
@@ -2153,7 +2159,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_ca
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_dof.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_dof.c.o: ../source/blender/draw/engines/workbench/workbench_effect_dof.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_dof.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_dof.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_dof.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_effect_dof.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_dof.c.i: cmake_force
@@ -2166,7 +2172,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_do
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_outline.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_outline.c.o: ../source/blender/draw/engines/workbench/workbench_effect_outline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_outline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_outline.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_outline.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_effect_outline.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_outline.c.i: cmake_force
@@ -2179,7 +2185,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_effect_ou
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_engine.c.o: ../source/blender/draw/engines/workbench/workbench_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_engine.c.i: cmake_force
@@ -2192,7 +2198,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_engine.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_materials.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_materials.c.o: ../source/blender/draw/engines/workbench/workbench_materials.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_materials.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_materials.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_materials.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_materials.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_materials.c.i: cmake_force
@@ -2205,7 +2211,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_materials
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_opaque.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_opaque.c.o: ../source/blender/draw/engines/workbench/workbench_opaque.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_opaque.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_opaque.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_opaque.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_opaque.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_opaque.c.i: cmake_force
@@ -2218,7 +2224,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_opaque.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_render.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_render.c.o: ../source/blender/draw/engines/workbench/workbench_render.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_render.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_render.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_render.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_render.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_render.c.i: cmake_force
@@ -2231,7 +2237,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_render.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shader.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shader.c.o: ../source/blender/draw/engines/workbench/workbench_shader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shader.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_shader.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_shader.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shader.c.i: cmake_force
@@ -2244,7 +2250,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shader.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shadow.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shadow.c.o: ../source/blender/draw/engines/workbench/workbench_shadow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shadow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shadow.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_shadow.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_shadow.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shadow.c.i: cmake_force
@@ -2257,7 +2263,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_shadow.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_transparent.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_transparent.c.o: ../source/blender/draw/engines/workbench/workbench_transparent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_transparent.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_transparent.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_transparent.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_transparent.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_transparent.c.i: cmake_force
@@ -2270,7 +2276,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_transpare
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_volume.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_volume.c.o: ../source/blender/draw/engines/workbench/workbench_volume.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_volume.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_volume.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/workbench_volume.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/workbench/workbench_volume.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_volume.c.i: cmake_force
@@ -2283,7 +2289,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/workbench_volume.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/external/external_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/external/external_engine.c.o: ../source/blender/draw/engines/external/external_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/external/external_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/external/external_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/external/external_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/external/external_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/external/external_engine.c.i: cmake_force
@@ -2296,7 +2302,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/external/external_engine.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_antialiasing.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_antialiasing.c.o: ../source/blender/draw/engines/gpencil/gpencil_antialiasing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_antialiasing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_antialiasing.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_antialiasing.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/gpencil/gpencil_antialiasing.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_antialiasing.c.i: cmake_force
@@ -2309,7 +2315,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_antialiasing.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_cache_utils.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_cache_utils.c.o: ../source/blender/draw/engines/gpencil/gpencil_cache_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_cache_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_cache_utils.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_cache_utils.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/gpencil/gpencil_cache_utils.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_cache_utils.c.i: cmake_force
@@ -2322,7 +2328,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_cache_utils.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_draw_data.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_draw_data.c.o: ../source/blender/draw/engines/gpencil/gpencil_draw_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_draw_data.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_draw_data.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_draw_data.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/gpencil/gpencil_draw_data.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_draw_data.c.i: cmake_force
@@ -2335,7 +2341,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_draw_data.c.s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_engine.c.o: ../source/blender/draw/engines/gpencil/gpencil_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/gpencil/gpencil_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_engine.c.i: cmake_force
@@ -2348,7 +2354,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_engine.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_render.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_render.c.o: ../source/blender/draw/engines/gpencil/gpencil_render.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_render.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_render.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_render.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/gpencil/gpencil_render.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_render.c.i: cmake_force
@@ -2361,7 +2367,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_render.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader.c.o: ../source/blender/draw/engines/gpencil/gpencil_shader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/gpencil/gpencil_shader.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader.c.i: cmake_force
@@ -2374,7 +2380,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader_fx.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader_fx.c.o: ../source/blender/draw/engines/gpencil/gpencil_shader_fx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader_fx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader_fx.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader_fx.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/gpencil/gpencil_shader_fx.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader_fx.c.i: cmake_force
@@ -2387,7 +2393,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/gpencil_shader_fx.c.s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_draw_utils.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_draw_utils.c.o: ../source/blender/draw/engines/select/select_draw_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_draw_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_draw_utils.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/select/select_draw_utils.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/select/select_draw_utils.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_draw_utils.c.i: cmake_force
@@ -2400,7 +2406,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_draw_utils.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_engine.c.o: ../source/blender/draw/engines/select/select_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/select/select_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/select/select_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_engine.c.i: cmake_force
@@ -2413,7 +2419,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/select_engine.c.s: cma
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_antialiasing.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_antialiasing.c.o: ../source/blender/draw/engines/overlay/overlay_antialiasing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_antialiasing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_antialiasing.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_antialiasing.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_antialiasing.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_antialiasing.c.i: cmake_force
@@ -2426,7 +2432,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_antialiasing.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_armature.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_armature.c.o: ../source/blender/draw/engines/overlay/overlay_armature.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_armature.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_armature.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_armature.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_armature.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_armature.c.i: cmake_force
@@ -2439,7 +2445,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_armature.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_background.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_background.c.o: ../source/blender/draw/engines/overlay/overlay_background.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_background.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_background.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_background.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_background.c.i: cmake_force
@@ -2452,7 +2458,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_background.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_curve.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_curve.c.o: ../source/blender/draw/engines/overlay/overlay_edit_curve.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_curve.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_curve.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_curve.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_edit_curve.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_curve.c.i: cmake_force
@@ -2465,7 +2471,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_curve.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_mesh.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_mesh.c.o: ../source/blender/draw/engines/overlay/overlay_edit_mesh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_mesh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_mesh.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_mesh.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_edit_mesh.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_mesh.c.i: cmake_force
@@ -2478,7 +2484,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_mesh.c.s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_text.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_text.c.o: ../source/blender/draw/engines/overlay/overlay_edit_text.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_text.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_text.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_text.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_edit_text.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_text.c.i: cmake_force
@@ -2491,7 +2497,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_text.c.s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_uv.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_uv.c.o: ../source/blender/draw/engines/overlay/overlay_edit_uv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_uv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_uv.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_uv.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_edit_uv.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_uv.c.i: cmake_force
@@ -2504,7 +2510,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_edit_uv.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_engine.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_engine.c.o: ../source/blender/draw/engines/overlay/overlay_engine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_engine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_engine.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_engine.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_engine.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_engine.c.i: cmake_force
@@ -2517,7 +2523,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_engine.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_extra.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_extra.c.o: ../source/blender/draw/engines/overlay/overlay_extra.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_extra.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_extra.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_extra.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_extra.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_extra.c.i: cmake_force
@@ -2530,7 +2536,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_extra.c.s: cm
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_facing.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_facing.c.o: ../source/blender/draw/engines/overlay/overlay_facing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_facing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_facing.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_facing.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_facing.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_facing.c.i: cmake_force
@@ -2543,7 +2549,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_facing.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_gpencil.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_gpencil.c.o: ../source/blender/draw/engines/overlay/overlay_gpencil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_gpencil.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_gpencil.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_gpencil.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_gpencil.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_gpencil.c.i: cmake_force
@@ -2556,7 +2562,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_gpencil.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_grid.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_grid.c.o: ../source/blender/draw/engines/overlay/overlay_grid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_grid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_grid.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_grid.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_grid.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_grid.c.i: cmake_force
@@ -2569,7 +2575,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_grid.c.s: cma
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_image.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_image.c.o: ../source/blender/draw/engines/overlay/overlay_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_image.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_image.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_image.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_image.c.i: cmake_force
@@ -2582,7 +2588,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_image.c.s: cm
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_lattice.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_lattice.c.o: ../source/blender/draw/engines/overlay/overlay_lattice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_lattice.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_lattice.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_lattice.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_lattice.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_lattice.c.i: cmake_force
@@ -2595,7 +2601,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_lattice.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_metaball.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_metaball.c.o: ../source/blender/draw/engines/overlay/overlay_metaball.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_metaball.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_metaball.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_metaball.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_metaball.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_metaball.c.i: cmake_force
@@ -2608,7 +2614,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_metaball.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_motion_path.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_motion_path.c.o: ../source/blender/draw/engines/overlay/overlay_motion_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_motion_path.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_motion_path.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_motion_path.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_motion_path.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_motion_path.c.i: cmake_force
@@ -2621,7 +2627,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_motion_path.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_outline.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_outline.c.o: ../source/blender/draw/engines/overlay/overlay_outline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_outline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_outline.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_outline.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_outline.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_outline.c.i: cmake_force
@@ -2634,7 +2640,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_outline.c.s: 
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_paint.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_paint.c.o: ../source/blender/draw/engines/overlay/overlay_paint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_paint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_paint.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_paint.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_paint.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_paint.c.i: cmake_force
@@ -2647,7 +2653,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_paint.c.s: cm
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_particle.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_particle.c.o: ../source/blender/draw/engines/overlay/overlay_particle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_particle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_particle.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_particle.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_particle.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_particle.c.i: cmake_force
@@ -2660,7 +2666,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_particle.c.s:
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_sculpt.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_sculpt.c.o: ../source/blender/draw/engines/overlay/overlay_sculpt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_sculpt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_sculpt.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_sculpt.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_sculpt.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_sculpt.c.i: cmake_force
@@ -2673,7 +2679,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_sculpt.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_shader.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_shader.c.o: ../source/blender/draw/engines/overlay/overlay_shader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_shader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_shader.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_shader.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_shader.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_shader.c.i: cmake_force
@@ -2686,7 +2692,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_shader.c.s: c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_wireframe.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_wireframe.c.o: ../source/blender/draw/engines/overlay/overlay_wireframe.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_wireframe.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_wireframe.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/overlay_wireframe.c.o   -c /Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/overlay_wireframe.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_wireframe.c.i: cmake_force
@@ -2699,7 +2705,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/overlay_wireframe.c.s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ambient_occlusion_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ambient_occlusion_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/ambient_occlusion_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ambient_occlusion_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ambient_occlusion_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/ambient_occlusion_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/ambient_occlusion_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ambient_occlusion_lib.glsl.c.i: cmake_force
@@ -2712,7 +2718,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ambient_occlusi
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/background_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/background_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/background_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/background_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/background_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/background_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/background_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/background_vert.glsl.c.i: cmake_force
@@ -2725,7 +2731,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/background_vert
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/closure_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/closure_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lib.glsl.c.i: cmake_force
@@ -2738,7 +2744,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lib.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_uniforms_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_uniforms_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/common_uniforms_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_uniforms_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_uniforms_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_uniforms_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/common_uniforms_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_uniforms_lib.glsl.c.i: cmake_force
@@ -2751,7 +2757,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_uniforms
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_utiltex_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_utiltex_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/common_utiltex_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_utiltex_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_utiltex_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_utiltex_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/common_utiltex_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_utiltex_lib.glsl.c.i: cmake_force
@@ -2764,7 +2770,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/common_utiltex_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lights_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lights_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/lights_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lights_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lights_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lights_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lights_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lights_lib.glsl.c.i: cmake_force
@@ -2777,7 +2783,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lights_lib.glsl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_lib.glsl.c.i: cmake_force
@@ -2790,7 +2796,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_lib.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_glossy_frag.glsl.c.i: cmake_force
@@ -2803,7 +2809,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filt
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_diffuse_frag.glsl.c.i: cmake_force
@@ -2816,7 +2822,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filt
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filter_visibility_frag.glsl.c.i: cmake_force
@@ -2829,7 +2835,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_filt
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_geom.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_geom.glsl.c.i: cmake_force
@@ -2842,7 +2848,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_geom
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_vert.glsl.c.i: cmake_force
@@ -2855,7 +2861,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_vert
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_frag.glsl.c.i: cmake_force
@@ -2868,7 +2874,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube_display_vert.glsl.c.i: cmake_force
@@ -2881,7 +2887,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_cube
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_frag.glsl.c.i: cmake_force
@@ -2894,7 +2900,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_display_vert.glsl.c.i: cmake_force
@@ -2907,7 +2913,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid_fill_frag.glsl.c.i: cmake_force
@@ -2920,7 +2926,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_grid
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_frag.glsl.c.i: cmake_force
@@ -2933,7 +2939,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_plan
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_display_vert.glsl.c.i: cmake_force
@@ -2946,7 +2952,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_plan
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lookdev_world_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lookdev_world_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lookdev_world_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lookdev_world_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lookdev_world_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lookdev_world_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lookdev_world_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lookdev_world_frag.glsl.c.i: cmake_force
@@ -2959,7 +2965,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lookdev_world_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lit_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lit_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/closure_lit_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lit_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lit_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lit_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/closure_lit_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lit_lib.glsl.c.i: cmake_force
@@ -2972,7 +2978,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/closure_lit_lib
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_bloom_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_bloom_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_bloom_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_bloom_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_bloom_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_bloom_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_bloom_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_bloom_frag.glsl.c.i: cmake_force
@@ -2985,7 +2991,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_bloom_fr
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_dof_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_dof_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_vert.glsl.c.i: cmake_force
@@ -2998,7 +3004,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_vert
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_dof_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_dof_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_frag.glsl.c.i: cmake_force
@@ -3011,7 +3017,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_dof_frag
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_downsample_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_downsample_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_frag.glsl.c.i: cmake_force
@@ -3024,7 +3030,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsamp
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsample_cube_frag.glsl.c.i: cmake_force
@@ -3037,7 +3043,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_downsamp
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_gtao_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_gtao_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_gtao_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_gtao_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_gtao_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_gtao_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_gtao_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_gtao_frag.glsl.c.i: cmake_force
@@ -3050,7 +3056,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_gtao_fra
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_resolve_frag.glsl.c.i: cmake_force
@@ -3063,7 +3069,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity_tile_frag.glsl.c.i: cmake_force
@@ -3076,7 +3082,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_velocity
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_minmaxz_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_minmaxz_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_minmaxz_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_minmaxz_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_minmaxz_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_minmaxz_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_minmaxz_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_minmaxz_frag.glsl.c.i: cmake_force
@@ -3089,7 +3095,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_minmaxz_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_mist_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_mist_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_mist_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_mist_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_mist_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_mist_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_mist_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_mist_frag.glsl.c.i: cmake_force
@@ -3102,7 +3108,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_mist_fra
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_motion_blur_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_motion_blur_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_motion_blur_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_motion_blur_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_motion_blur_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_motion_blur_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_motion_blur_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_motion_blur_frag.glsl.c.i: cmake_force
@@ -3115,7 +3121,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_motion_b
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_ssr_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_ssr_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_ssr_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_ssr_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_ssr_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_ssr_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_ssr_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_ssr_frag.glsl.c.i: cmake_force
@@ -3128,7 +3134,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_ssr_frag
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_subsurface_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_subsurface_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_subsurface_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_subsurface_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_subsurface_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_subsurface_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_subsurface_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_subsurface_frag.glsl.c.i: cmake_force
@@ -3141,7 +3147,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_subsurfa
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_translucency_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_translucency_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_translucency_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_translucency_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_translucency_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_translucency_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_translucency_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_translucency_frag.glsl.c.i: cmake_force
@@ -3154,7 +3160,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_transluc
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_temporal_aa.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_temporal_aa.glsl.c.o: source/blender/draw/engines/eevee/shaders/effect_temporal_aa.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_temporal_aa.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_temporal_aa.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_temporal_aa.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/effect_temporal_aa.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_temporal_aa.glsl.c.i: cmake_force
@@ -3167,7 +3173,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/effect_temporal
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_frag.glsl.c.i: cmake_force
@@ -3180,7 +3186,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_plan
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_geom.glsl.c.i: cmake_force
@@ -3193,7 +3199,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_plan
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_planar_downsample_vert.glsl.c.i: cmake_force
@@ -3206,7 +3212,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/lightprobe_plan
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/object_motion_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/object_motion_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_frag.glsl.c.i: cmake_force
@@ -3219,7 +3225,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/object_motion_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/object_motion_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_vert.glsl.c.i: cmake_force
@@ -3232,7 +3238,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/object_motion_v
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/prepass_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/prepass_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_frag.glsl.c.i: cmake_force
@@ -3245,7 +3251,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_frag.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/prepass_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/prepass_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_vert.glsl.c.i: cmake_force
@@ -3258,7 +3264,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/prepass_vert.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_accum_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_accum_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/shadow_accum_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_accum_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_accum_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_accum_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/shadow_accum_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_accum_frag.glsl.c.i: cmake_force
@@ -3271,7 +3277,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_accum_fr
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/shadow_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/shadow_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_frag.glsl.c.i: cmake_force
@@ -3284,7 +3290,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_frag.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/shadow_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/shadow_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_vert.glsl.c.i: cmake_force
@@ -3297,7 +3303,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/shadow_vert.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_lut_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_lut_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/bsdf_lut_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_lut_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_lut_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_lut_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/bsdf_lut_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_lut_frag.glsl.c.i: cmake_force
@@ -3310,7 +3316,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_lut_frag.g
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/btdf_lut_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/btdf_lut_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/btdf_lut_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/btdf_lut_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/btdf_lut_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/btdf_lut_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/btdf_lut_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/btdf_lut_frag.glsl.c.i: cmake_force
@@ -3323,7 +3329,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/btdf_lut_frag.g
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_common_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_common_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/bsdf_common_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_common_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_common_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_common_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/bsdf_common_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_common_lib.glsl.c.i: cmake_force
@@ -3336,7 +3342,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_common_lib
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/irradiance_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/irradiance_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/irradiance_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/irradiance_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/irradiance_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/irradiance_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/irradiance_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/irradiance_lib.glsl.c.i: cmake_force
@@ -3349,7 +3355,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/irradiance_lib.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/octahedron_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/octahedron_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/octahedron_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/octahedron_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/octahedron_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/octahedron_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/octahedron_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/octahedron_lib.glsl.c.i: cmake_force
@@ -3362,7 +3368,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/octahedron_lib.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/cubemap_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/cubemap_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/cubemap_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/cubemap_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/cubemap_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/cubemap_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/cubemap_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/cubemap_lib.glsl.c.i: cmake_force
@@ -3375,7 +3381,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/cubemap_lib.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_sampling_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_sampling_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/bsdf_sampling_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_sampling_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_sampling_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_sampling_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/bsdf_sampling_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_sampling_lib.glsl.c.i: cmake_force
@@ -3388,7 +3394,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/bsdf_sampling_l
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/raytrace_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/raytrace_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/raytrace_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/raytrace_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/raytrace_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/raytrace_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/raytrace_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/raytrace_lib.glsl.c.i: cmake_force
@@ -3401,7 +3407,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/raytrace_lib.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/renderpass_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/renderpass_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_lib.glsl.c.i: cmake_force
@@ -3414,7 +3420,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_lib.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_postprocess_frag.glsl.c.i: cmake_force
@@ -3427,7 +3433,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/renderpass_post
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ltc_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ltc_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/ltc_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ltc_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ltc_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/ltc_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/ltc_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ltc_lib.glsl.c.i: cmake_force
@@ -3440,7 +3446,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ltc_lib.glsl.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ssr_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ssr_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/ssr_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ssr_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ssr_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/ssr_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/ssr_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ssr_lib.glsl.c.i: cmake_force
@@ -3453,7 +3459,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/ssr_lib.glsl.c.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/surface_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/surface_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_frag.glsl.c.i: cmake_force
@@ -3466,7 +3472,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_frag.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_geom.glsl.c.o: source/blender/draw/engines/eevee/shaders/surface_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/surface_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_geom.glsl.c.i: cmake_force
@@ -3479,7 +3485,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_geom.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/surface_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/surface_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_lib.glsl.c.i: cmake_force
@@ -3492,7 +3498,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_lib.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/surface_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/surface_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_vert.glsl.c.i: cmake_force
@@ -3505,7 +3511,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/surface_vert.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/update_noise_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/update_noise_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/update_noise_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/update_noise_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/update_noise_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/update_noise_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/update_noise_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/update_noise_frag.glsl.c.i: cmake_force
@@ -3518,7 +3524,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/update_noise_fr
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_accum_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_accum_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_accum_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_accum_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_accum_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_accum_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_accum_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_accum_frag.glsl.c.i: cmake_force
@@ -3531,7 +3537,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_accu
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_lib.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_lib.glsl.c.i: cmake_force
@@ -3544,7 +3550,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_lib.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_frag.glsl.c.i: cmake_force
@@ -3557,7 +3563,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_frag
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_geom.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_geom.glsl.c.i: cmake_force
@@ -3570,7 +3576,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_geom
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_vert.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_vert.glsl.c.i: cmake_force
@@ -3583,7 +3589,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_vert
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_resolve_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_resolve_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_resolve_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_resolve_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_resolve_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_resolve_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_resolve_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_resolve_frag.glsl.c.i: cmake_force
@@ -3596,7 +3602,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_reso
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_scatter_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_scatter_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_scatter_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_scatter_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_scatter_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_scatter_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_scatter_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_scatter_frag.glsl.c.i: cmake_force
@@ -3609,7 +3615,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_scat
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_integration_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_integration_frag.glsl.c.o: source/blender/draw/engines/eevee/shaders/volumetric_integration_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_integration_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_integration_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_integration_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/eevee/shaders/volumetric_integration_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_integration_frag.glsl.c.i: cmake_force
@@ -3622,7 +3628,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/eevee/shaders/volumetric_inte
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_cavity_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_cavity_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_cavity_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_cavity_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_cavity_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_cavity_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_cavity_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_cavity_lib.glsl.c.i: cmake_force
@@ -3635,7 +3641,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_common_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_common_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_common_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_common_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_common_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_common_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_common_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_common_lib.glsl.c.i: cmake_force
@@ -3648,7 +3654,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_composite_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_composite_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_composite_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_composite_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_composite_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_composite_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_composite_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_composite_frag.glsl.c.i: cmake_force
@@ -3661,7 +3667,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_curvature_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_curvature_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_curvature_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_curvature_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_curvature_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_curvature_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_curvature_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_curvature_lib.glsl.c.i: cmake_force
@@ -3674,7 +3680,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_data_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_data_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_data_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_data_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_data_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_data_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_data_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_data_lib.glsl.c.i: cmake_force
@@ -3687,7 +3693,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_d
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_cavity_frag.glsl.c.i: cmake_force
@@ -3700,7 +3706,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_e
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_dof_frag.glsl.c.i: cmake_force
@@ -3713,7 +3719,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_e
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_outline_frag.glsl.c.i: cmake_force
@@ -3726,7 +3732,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_e
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_frag.glsl.c.i: cmake_force
@@ -3739,7 +3745,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_e
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_smaa_vert.glsl.c.i: cmake_force
@@ -3752,7 +3758,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_e
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_effect_taa_frag.glsl.c.i: cmake_force
@@ -3765,7 +3771,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_e
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_image_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_image_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_image_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_image_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_image_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_image_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_image_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_image_lib.glsl.c.i: cmake_force
@@ -3778,7 +3784,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_i
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_matcap_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_matcap_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_matcap_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_matcap_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_matcap_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_matcap_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_matcap_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_matcap_lib.glsl.c.i: cmake_force
@@ -3791,7 +3797,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_m
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_material_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_material_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_material_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_material_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_material_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_material_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_material_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_material_lib.glsl.c.i: cmake_force
@@ -3804,7 +3810,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_m
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_merge_infront_frag.glsl.c.i: cmake_force
@@ -3817,7 +3823,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_m
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_prepass_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_prepass_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_frag.glsl.c.i: cmake_force
@@ -3830,7 +3836,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_p
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_hair_vert.glsl.c.i: cmake_force
@@ -3843,7 +3849,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_p
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_pointcloud_vert.glsl.c.i: cmake_force
@@ -3856,7 +3862,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_p
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_vert.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_prepass_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_prepass_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_prepass_vert.glsl.c.i: cmake_force
@@ -3869,7 +3875,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_p
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shader_interface_lib.glsl.c.i: cmake_force
@@ -3882,7 +3888,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_caps_geom.glsl.c.i: cmake_force
@@ -3895,7 +3901,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_debug_frag.glsl.c.i: cmake_force
@@ -3908,7 +3914,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_geom.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_shadow_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_shadow_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_geom.glsl.c.i: cmake_force
@@ -3921,7 +3927,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_vert.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_shadow_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_shadow_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_shadow_vert.glsl.c.i: cmake_force
@@ -3934,7 +3940,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_s
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_accum_frag.glsl.c.i: cmake_force
@@ -3947,7 +3953,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_t
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_transparent_resolve_frag.glsl.c.i: cmake_force
@@ -3960,7 +3966,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_t
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_frag.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_volume_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_volume_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_frag.glsl.c.i: cmake_force
@@ -3973,7 +3979,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_v
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_vert.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_volume_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_volume_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_volume_vert.glsl.c.i: cmake_force
@@ -3986,7 +3992,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_v
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_world_light_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_world_light_lib.glsl.c.o: source/blender/draw/engines/workbench/shaders/workbench_world_light_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_world_light_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_world_light_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_world_light_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/workbench/shaders/workbench_world_light_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_world_light_lib.glsl.c.i: cmake_force
@@ -3999,7 +4005,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/workbench/shaders/workbench_w
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_colormanagement_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_colormanagement_lib.glsl.c.o: source/blender/draw/intern/shaders/common_colormanagement_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_colormanagement_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_colormanagement_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_colormanagement_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_colormanagement_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_colormanagement_lib.glsl.c.i: cmake_force
@@ -4012,7 +4018,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_colormanagement
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_globals_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_globals_lib.glsl.c.o: source/blender/draw/intern/shaders/common_globals_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_globals_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_globals_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_globals_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_globals_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_globals_lib.glsl.c.i: cmake_force
@@ -4025,7 +4031,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_globals_lib.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_pointcloud_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_pointcloud_lib.glsl.c.o: source/blender/draw/intern/shaders/common_pointcloud_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_pointcloud_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_pointcloud_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_pointcloud_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_pointcloud_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_pointcloud_lib.glsl.c.i: cmake_force
@@ -4038,7 +4044,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_pointcloud_lib.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_lib.glsl.c.o: source/blender/draw/intern/shaders/common_hair_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_hair_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_hair_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_lib.glsl.c.i: cmake_force
@@ -4051,7 +4057,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_refine_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_refine_vert.glsl.c.o: source/blender/draw/intern/shaders/common_hair_refine_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_refine_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_refine_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_hair_refine_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_hair_refine_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_refine_vert.glsl.c.i: cmake_force
@@ -4064,7 +4070,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_hair_refine_ver
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_lib.glsl.c.o: source/blender/draw/intern/shaders/common_math_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_math_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_math_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_lib.glsl.c.i: cmake_force
@@ -4077,7 +4083,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_geom_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_geom_lib.glsl.c.o: source/blender/draw/intern/shaders/common_math_geom_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_geom_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_geom_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_math_geom_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_math_geom_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_geom_lib.glsl.c.i: cmake_force
@@ -4090,7 +4096,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_math_geom_lib.g
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_view_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_view_lib.glsl.c.o: source/blender/draw/intern/shaders/common_view_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_view_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_view_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_view_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_view_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_view_lib.glsl.c.i: cmake_force
@@ -4103,7 +4109,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_view_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fxaa_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fxaa_lib.glsl.c.o: source/blender/draw/intern/shaders/common_fxaa_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fxaa_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fxaa_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_fxaa_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_fxaa_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fxaa_lib.glsl.c.i: cmake_force
@@ -4116,7 +4122,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fxaa_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_smaa_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_smaa_lib.glsl.c.o: source/blender/draw/intern/shaders/common_smaa_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_smaa_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_smaa_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_smaa_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_smaa_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_smaa_lib.glsl.c.i: cmake_force
@@ -4129,7 +4135,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_smaa_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fullscreen_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fullscreen_vert.glsl.c.o: source/blender/draw/intern/shaders/common_fullscreen_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fullscreen_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fullscreen_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/intern/shaders/common_fullscreen_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/intern/shaders/common_fullscreen_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fullscreen_vert.glsl.c.i: cmake_force
@@ -4142,7 +4148,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/intern/shaders/common_fullscreen_vert
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_frag.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_frag.glsl.c.i: cmake_force
@@ -4155,7 +4161,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_frag.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vert.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vert.glsl.c.i: cmake_force
@@ -4168,7 +4174,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vert.
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_frag.glsl.c.i: cmake_force
@@ -4181,7 +4187,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antia
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antialiasing_vert.glsl.c.i: cmake_force
@@ -4194,7 +4200,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_antia
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_common_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_common_lib.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_common_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_common_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_common_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_common_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_common_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_common_lib.glsl.c.i: cmake_force
@@ -4207,7 +4213,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_commo
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_layer_blend_frag.glsl.c.i: cmake_force
@@ -4220,7 +4226,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_layer
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_mask_invert_frag.glsl.c.i: cmake_force
@@ -4233,7 +4239,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_mask_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_frag.glsl.c.i: cmake_force
@@ -4246,7 +4252,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth_merge_vert.glsl.c.i: cmake_force
@@ -4259,7 +4265,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_depth
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c.o: source/blender/draw/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vfx_frag.glsl.c.i: cmake_force
@@ -4272,7 +4278,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/gpencil/shaders/gpencil_vfx_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_3D_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_3D_vert.glsl.c.o: source/blender/draw/engines/select/shaders/selection_id_3D_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_3D_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_3D_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_3D_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/select/shaders/selection_id_3D_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_3D_vert.glsl.c.i: cmake_force
@@ -4285,7 +4291,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_3
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_frag.glsl.c.o: source/blender/draw/engines/select/shaders/selection_id_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/select/shaders/selection_id_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_frag.glsl.c.i: cmake_force
@@ -4298,7 +4304,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/select/shaders/selection_id_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/conservative_depth_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/conservative_depth_geom.glsl.c.o: source/blender/draw/engines/basic/shaders/conservative_depth_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/conservative_depth_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/conservative_depth_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/basic/shaders/conservative_depth_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/basic/shaders/conservative_depth_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/conservative_depth_geom.glsl.c.i: cmake_force
@@ -4311,7 +4317,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/conservative_de
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_vert.glsl.c.o: source/blender/draw/engines/basic/shaders/depth_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/basic/shaders/depth_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_vert.glsl.c.i: cmake_force
@@ -4324,7 +4330,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_vert.glsl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_frag.glsl.c.o: source/blender/draw/engines/basic/shaders/depth_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/basic/shaders/depth_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_frag.glsl.c.i: cmake_force
@@ -4337,7 +4343,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/basic/shaders/depth_frag.glsl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/common_overlay_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/common_overlay_lib.glsl.c.o: source/blender/draw/engines/overlay/shaders/common_overlay_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/common_overlay_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/common_overlay_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/common_overlay_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/common_overlay_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/common_overlay_lib.glsl.c.i: cmake_force
@@ -4350,7 +4356,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/common_overla
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/antialiasing_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/antialiasing_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_frag.glsl.c.i: cmake_force
@@ -4363,7 +4369,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/antialiasing_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/antialiasing_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_vert.glsl.c.i: cmake_force
@@ -4376,7 +4382,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/antialiasing_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_dof_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_dof_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_vert.glsl.c.i: cmake_force
@@ -4389,7 +4395,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_solid_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_solid_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_dof_solid_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_solid_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_solid_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_solid_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_dof_solid_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_solid_frag.glsl.c.i: cmake_force
@@ -4402,7 +4408,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_dof_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_outline_vert.glsl.c.i: cmake_force
@@ -4415,7 +4421,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_enve
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_frag.glsl.c.i: cmake_force
@@ -4428,7 +4434,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_enve
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_envelope_solid_vert.glsl.c.i: cmake_force
@@ -4441,7 +4447,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_enve
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_geom.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_shape_outline_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_shape_outline_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_geom.glsl.c.i: cmake_force
@@ -4454,7 +4460,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shap
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_shape_outline_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_shape_outline_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_outline_vert.glsl.c.i: cmake_force
@@ -4467,7 +4473,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shap
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_shape_solid_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_shape_solid_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_frag.glsl.c.i: cmake_force
@@ -4480,7 +4486,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shap
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_shape_solid_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_shape_solid_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_solid_vert.glsl.c.i: cmake_force
@@ -4493,7 +4499,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shap
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_wire_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_wire_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_shape_wire_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_wire_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_wire_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_wire_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_shape_wire_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shape_wire_vert.glsl.c.i: cmake_force
@@ -4506,7 +4512,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_shap
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_outline_vert.glsl.c.i: cmake_force
@@ -4519,7 +4525,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphe
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_frag.glsl.c.i: cmake_force
@@ -4532,7 +4538,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphe
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphere_solid_vert.glsl.c.i: cmake_force
@@ -4545,7 +4551,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_sphe
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_stick_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_stick_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_frag.glsl.c.i: cmake_force
@@ -4558,7 +4564,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stic
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_stick_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_stick_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stick_vert.glsl.c.i: cmake_force
@@ -4571,7 +4577,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_stic
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_wire_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_wire_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_frag.glsl.c.i: cmake_force
@@ -4584,7 +4590,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/armature_wire_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/armature_wire_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire_vert.glsl.c.i: cmake_force
@@ -4597,7 +4603,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/armature_wire
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/background_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/background_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/background_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/background_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/background_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/background_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/background_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/background_frag.glsl.c.i: cmake_force
@@ -4610,7 +4616,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/background_fr
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/clipbound_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/clipbound_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/clipbound_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/clipbound_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/clipbound_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/clipbound_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/clipbound_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/clipbound_vert.glsl.c.i: cmake_force
@@ -4623,7 +4629,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/clipbound_ver
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/depth_only_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/depth_only_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/depth_only_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/depth_only_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/depth_only_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/depth_only_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/depth_only_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/depth_only_vert.glsl.c.i: cmake_force
@@ -4636,7 +4642,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/depth_only_ve
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_geom.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_curve_handle_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_curve_handle_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_geom.glsl.c.i: cmake_force
@@ -4649,7 +4655,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_ha
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_curve_handle_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_curve_handle_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_handle_vert.glsl.c.i: cmake_force
@@ -4662,7 +4668,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_ha
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_point_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_point_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_curve_point_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_point_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_point_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_point_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_curve_point_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_point_vert.glsl.c.i: cmake_force
@@ -4675,7 +4681,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_po
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_wire_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_wire_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_curve_wire_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_wire_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_wire_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_wire_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_curve_wire_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_wire_vert.glsl.c.i: cmake_force
@@ -4688,7 +4694,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_curve_wi
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_canvas_vert.glsl.c.i: cmake_force
@@ -4701,7 +4707,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_guide_vert.glsl.c.i: cmake_force
@@ -4714,7 +4720,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_gpencil_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_gpencil_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_vert.glsl.c.i: cmake_force
@@ -4727,7 +4733,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_gpencil_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_point_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_point_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_lattice_point_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_point_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_point_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_point_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_lattice_point_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_point_vert.glsl.c.i: cmake_force
@@ -4740,7 +4746,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_wire_vert.glsl.c.i: cmake_force
@@ -4753,7 +4759,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_lattice_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_common_lib.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_common_lib.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_common_lib.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_common_lib.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_common_lib.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_common_lib.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_common_lib.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_common_lib.glsl.c.i: cmake_force
@@ -4766,7 +4772,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_com
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_frag.glsl.c.i: cmake_force
@@ -4779,7 +4785,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_fac
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_facefill_vert.glsl.c.i: cmake_force
@@ -4792,7 +4798,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_fac
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_frag.glsl.c.i: cmake_force
@@ -4805,7 +4811,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_fra
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_geom.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_geom.glsl.c.i: cmake_force
@@ -4818,7 +4824,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_geo
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_normal_vert.glsl.c.i: cmake_force
@@ -4831,7 +4837,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_nor
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_frag.glsl.c.i: cmake_force
@@ -4844,7 +4850,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_ana
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_analysis_vert.glsl.c.i: cmake_force
@@ -4857,7 +4863,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_ana
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_skin_root_vert.glsl.c.i: cmake_force
@@ -4870,7 +4876,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_ski
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_mesh_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_mesh_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_vert.glsl.c.i: cmake_force
@@ -4883,7 +4889,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_mesh_ver
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_strand_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_strand_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_particle_strand_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_strand_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_strand_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_strand_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_particle_strand_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_strand_vert.glsl.c.i: cmake_force
@@ -4896,7 +4902,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_point_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_point_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_particle_point_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_point_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_point_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_point_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_particle_point_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle_point_vert.glsl.c.i: cmake_force
@@ -4909,7 +4915,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_particle
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_edges_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_edges_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_vert.glsl.c.i: cmake_force
@@ -4922,7 +4928,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_geom.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_edges_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_edges_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_geom.glsl.c.i: cmake_force
@@ -4935,7 +4941,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_edges_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_edges_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges_frag.glsl.c.i: cmake_force
@@ -4948,7 +4954,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_edges
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_verts_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_verts_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_vert.glsl.c.i: cmake_force
@@ -4961,7 +4967,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_verts_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_verts_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts_frag.glsl.c.i: cmake_force
@@ -4974,7 +4980,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_verts
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_faces_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_faces_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_faces_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_faces_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_faces_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_faces_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_faces_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_faces_vert.glsl.c.i: cmake_force
@@ -4987,7 +4993,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_faces
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_face_dots_vert.glsl.c.i: cmake_force
@@ -5000,7 +5006,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_face_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_stretching_vert.glsl.c.i: cmake_force
@@ -5013,7 +5019,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_stret
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_tiled_image_borders_vert.glsl.c.i: cmake_force
@@ -5026,7 +5032,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/edit_uv_tiled
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_frag.glsl.c.i: cmake_force
@@ -5039,7 +5045,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_frag.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_vert.glsl.c.i: cmake_force
@@ -5052,7 +5058,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_vert.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_groundline_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_groundline_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_groundline_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_groundline_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_groundline_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_groundline_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_groundline_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_groundline_vert.glsl.c.i: cmake_force
@@ -5065,7 +5071,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_groundl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_lightprobe_grid_vert.glsl.c.i: cmake_force
@@ -5078,7 +5084,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_lightpr
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_loose_point_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_loose_point_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_frag.glsl.c.i: cmake_force
@@ -5091,7 +5097,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_p
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_loose_point_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_loose_point_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_point_vert.glsl.c.i: cmake_force
@@ -5104,7 +5110,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_loose_p
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_point_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_point_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_point_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_point_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_point_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_point_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_point_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_point_vert.glsl.c.i: cmake_force
@@ -5117,7 +5123,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_point_v
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_wire_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_wire_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_frag.glsl.c.i: cmake_force
@@ -5130,7 +5136,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_fr
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/extra_wire_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/extra_wire_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_vert.glsl.c.i: cmake_force
@@ -5143,7 +5149,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/extra_wire_ve
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/facing_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/facing_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_frag.glsl.c.i: cmake_force
@@ -5156,7 +5162,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_frag.g
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/facing_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/facing_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_vert.glsl.c.i: cmake_force
@@ -5169,7 +5175,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/facing_vert.g
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/grid_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/grid_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_frag.glsl.c.i: cmake_force
@@ -5182,7 +5188,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_frag.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/grid_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/grid_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_vert.glsl.c.i: cmake_force
@@ -5195,7 +5201,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/grid_vert.gls
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/image_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/image_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_vert.glsl.c.i: cmake_force
@@ -5208,7 +5214,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_vert.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/image_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/image_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_frag.glsl.c.i: cmake_force
@@ -5221,7 +5227,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/image_frag.gl
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_geom.glsl.c.o: source/blender/draw/engines/overlay/shaders/motion_path_line_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_515) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/motion_path_line_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_geom.glsl.c.i: cmake_force
@@ -5234,7 +5240,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_l
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/motion_path_line_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_516) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/motion_path_line_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_line_vert.glsl.c.i: cmake_force
@@ -5247,7 +5253,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_l
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_point_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_point_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/motion_path_point_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_517) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_point_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_point_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_point_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/motion_path_point_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_point_vert.glsl.c.i: cmake_force
@@ -5260,7 +5266,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/motion_path_p
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_detect_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_detect_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/outline_detect_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_518) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_detect_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_detect_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_detect_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/outline_detect_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_detect_frag.glsl.c.i: cmake_force
@@ -5273,7 +5279,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_detec
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/outline_prepass_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_519) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/outline_prepass_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_frag.glsl.c.i: cmake_force
@@ -5286,7 +5292,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepa
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_geom.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_geom.glsl.c.o: source/blender/draw/engines/overlay/shaders/outline_prepass_geom.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_520) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_geom.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_geom.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_geom.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/outline_prepass_geom.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_geom.glsl.c.i: cmake_force
@@ -5299,7 +5305,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepa
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/outline_prepass_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_521) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/outline_prepass_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepass_vert.glsl.c.i: cmake_force
@@ -5312,7 +5318,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/outline_prepa
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_face_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_face_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_face_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_522) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_face_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_face_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_face_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_face_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_face_vert.glsl.c.i: cmake_force
@@ -5325,7 +5331,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_face_ve
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_point_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_point_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_point_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_523) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_point_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_point_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_point_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_point_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_point_vert.glsl.c.i: cmake_force
@@ -5338,7 +5344,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_point_v
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_texture_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_524) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_texture_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_frag.glsl.c.i: cmake_force
@@ -5351,7 +5357,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_texture_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_525) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_texture_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture_vert.glsl.c.i: cmake_force
@@ -5364,7 +5370,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_texture
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_vertcol_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_526) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_vertcol_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_frag.glsl.c.i: cmake_force
@@ -5377,7 +5383,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_vertcol_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_527) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_vertcol_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol_vert.glsl.c.i: cmake_force
@@ -5390,7 +5396,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_vertcol
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_weight_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_528) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_weight_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_frag.glsl.c.i: cmake_force
@@ -5403,7 +5409,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_weight_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_529) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_weight_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_vert.glsl.c.i: cmake_force
@@ -5416,7 +5422,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_weight_
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_wire_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_wire_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/paint_wire_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_530) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_wire_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_wire_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_wire_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/paint_wire_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_wire_vert.glsl.c.i: cmake_force
@@ -5429,7 +5435,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/paint_wire_ve
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/particle_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_531) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/particle_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_vert.glsl.c.i: cmake_force
@@ -5442,7 +5448,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_vert
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/particle_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_532) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/particle_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_frag.glsl.c.i: cmake_force
@@ -5455,7 +5461,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/particle_frag
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/sculpt_mask_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_533) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/sculpt_mask_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.i: cmake_force
@@ -5468,7 +5474,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_v
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/sculpt_mask_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_534) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/sculpt_mask_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.i: cmake_force
@@ -5481,7 +5487,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_f
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_535) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.i: cmake_force
@@ -5492,9 +5498,22 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_veloci
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.s"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl.c -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.s
 
+source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
+source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.o"
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c
+
+source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.i"
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c > CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.i
+
+source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.s"
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.s
+
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.o: source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_536) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.i: cmake_force
@@ -5507,7 +5526,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_ver
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_537) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.i: cmake_force
@@ -5520,7 +5539,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_fra
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.o: source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_538) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.i: cmake_force
@@ -5533,7 +5552,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_fra
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_frag.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_frag.glsl.c.o: source/blender/draw/engines/image/shaders/engine_image_frag.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_539) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_frag.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_frag.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_frag.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/image/shaders/engine_image_frag.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_frag.glsl.c.i: cmake_force
@@ -5546,7 +5565,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_fr
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_vert.glsl.c.o: source/blender/draw/CMakeFiles/bf_draw.dir/flags.make
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_vert.glsl.c.o: source/blender/draw/engines/image/shaders/engine_image_vert.glsl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_540) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_vert.glsl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_542) "Building C object source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_vert.glsl.c.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_vert.glsl.c.o   -c /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/image/shaders/engine_image_vert.glsl.c
 
 source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_vert.glsl.c.i: cmake_force
@@ -5874,6 +5893,7 @@ bf_draw_OBJECTS = \
 "CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.o" \
 "CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.o" \
 "CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.o" \
+"CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.o" \
 "CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.o" \
 "CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.o" \
 "CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.o" \
@@ -6198,6 +6218,7 @@ lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/sha
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.o
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_frag.glsl.c.o
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_velocity_vert.glsl.c.o
+lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.o
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_vert.glsl.c.o
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/wireframe_frag.glsl.c.o
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/xray_fade_frag.glsl.c.o
@@ -6205,7 +6226,7 @@ lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shade
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/engines/image/shaders/engine_image_vert.glsl.c.o
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/build.make
 lib/libbf_draw.a: source/blender/draw/CMakeFiles/bf_draw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_541) "Linking C static library ../../../lib/libbf_draw.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_543) "Linking C static library ../../../lib/libbf_draw.a"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && $(CMAKE_COMMAND) -P CMakeFiles/bf_draw.dir/cmake_clean_target.cmake
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bf_draw.dir/link.txt --verbose=$(VERBOSE)
 
@@ -6433,6 +6454,7 @@ source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/o
 source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/overlay/shaders/sculpt_mask_vert.glsl.c
 source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/overlay/shaders/sculpt_mask_frag.glsl.c
 source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl.c
+source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c
 source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/overlay/shaders/wireframe_vert.glsl.c
 source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/overlay/shaders/wireframe_frag.glsl.c
 source/blender/draw/CMakeFiles/bf_draw.dir/depend: source/blender/draw/engines/overlay/shaders/xray_fade_frag.glsl.c

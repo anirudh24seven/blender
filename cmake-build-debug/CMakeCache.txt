@@ -629,6 +629,9 @@ WITH_OPENVDB_3_ABI_COMPATIBLE:BOOL=OFF
 // was built with blosc support
 WITH_OPENVDB_BLOSC:BOOL=ON
 
+//Enable features relying on potrace
+WITH_POTRACE:BOOL=OFF
+
 //Enable Embedded Python API  (only disable for development)
 WITH_PYTHON:BOOL=ON
 

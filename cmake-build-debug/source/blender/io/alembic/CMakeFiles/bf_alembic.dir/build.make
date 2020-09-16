@@ -246,9 +246,22 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.s"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_archive.cc -o CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.s
 
+source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
+source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o: ../source/blender/io/alembic/exporter/abc_custom_props.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o"
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_custom_props.cc
+
+source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.i"
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_custom_props.cc > CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.i
+
+source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.s"
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_custom_props.cc -o CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.s
+
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o: ../source/blender/io/alembic/exporter/abc_export_capi.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_export_capi.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.i: cmake_force
@@ -261,7 +274,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o: ../source/blender/io/alembic/exporter/abc_hierarchy_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_hierarchy_iterator.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.i: cmake_force
@@ -274,7 +287,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_itera
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o: ../source/blender/io/alembic/exporter/abc_subdiv_disabler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_subdiv_disabler.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.i: cmake_force
@@ -287,7 +300,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_abstract.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_abstract.cc.o: ../source/blender/io/alembic/exporter/abc_writer_abstract.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_abstract.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_abstract.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_abstract.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_abstract.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_abstract.cc.i: cmake_force
@@ -300,7 +313,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_abstract
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_camera.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_camera.cc.o: ../source/blender/io/alembic/exporter/abc_writer_camera.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_camera.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_camera.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_camera.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_camera.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_camera.cc.i: cmake_force
@@ -313,7 +326,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_camera.c
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_curves.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_curves.cc.o: ../source/blender/io/alembic/exporter/abc_writer_curves.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_curves.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_curves.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_curves.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_curves.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_curves.cc.i: cmake_force
@@ -326,7 +339,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_curves.c
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_hair.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_hair.cc.o: ../source/blender/io/alembic/exporter/abc_writer_hair.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_hair.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_hair.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_hair.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_hair.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_hair.cc.i: cmake_force
@@ -339,7 +352,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_hair.cc.
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_instance.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_instance.cc.o: ../source/blender/io/alembic/exporter/abc_writer_instance.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_instance.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_instance.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_instance.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_instance.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_instance.cc.i: cmake_force
@@ -352,7 +365,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_instance
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mball.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mball.cc.o: ../source/blender/io/alembic/exporter/abc_writer_mball.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mball.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mball.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_mball.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_mball.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mball.cc.i: cmake_force
@@ -365,7 +378,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mball.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mesh.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mesh.cc.o: ../source/blender/io/alembic/exporter/abc_writer_mesh.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mesh.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mesh.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_mesh.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_mesh.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mesh.cc.i: cmake_force
@@ -378,7 +391,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_mesh.cc.
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_nurbs.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_nurbs.cc.o: ../source/blender/io/alembic/exporter/abc_writer_nurbs.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_nurbs.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_nurbs.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_nurbs.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_nurbs.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_nurbs.cc.i: cmake_force
@@ -391,7 +404,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_nurbs.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_points.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_points.cc.o: ../source/blender/io/alembic/exporter/abc_writer_points.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_points.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_points.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_points.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_points.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_points.cc.i: cmake_force
@@ -404,7 +417,7 @@ source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_points.c
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_transform.cc.o: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/flags.make
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_transform.cc.o: ../source/blender/io/alembic/exporter/abc_writer_transform.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_transform.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_transform.cc.o"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bf_alembic.dir/exporter/abc_writer_transform.cc.o -c /Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_writer_transform.cc
 
 source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_transform.cc.i: cmake_force
@@ -430,6 +443,7 @@ bf_alembic_OBJECTS = \
 "CMakeFiles/bf_alembic.dir/intern/abc_util.cc.o" \
 "CMakeFiles/bf_alembic.dir/intern/alembic_capi.cc.o" \
 "CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.o" \
+"CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o" \
 "CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o" \
 "CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o" \
 "CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o" \
@@ -460,6 +474,7 @@ lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/intern/
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/intern/abc_util.cc.o
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/intern/alembic_capi.cc.o
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.o
+lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o
@@ -475,7 +490,7 @@ lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporte
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_writer_transform.cc.o
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/build.make
 lib/libbf_alembic.a: source/blender/io/alembic/CMakeFiles/bf_alembic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX static library ../../../../lib/libbf_alembic.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library ../../../../lib/libbf_alembic.a"
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && $(CMAKE_COMMAND) -P CMakeFiles/bf_alembic.dir/cmake_clean_target.cmake
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bf_alembic.dir/link.txt --verbose=$(VERBOSE)
 

@@ -1902,6 +1902,7 @@ static void nlastrip_evaluate_transition(PointerRNA *ptr,
   /* first strip */
   tmp_nes.strip_mode = NES_TIME_TRANSITION_START;
   tmp_nes.strip = s1;
+  tmp_nes.strip_time = s1->strip_time;
   nlaeval_snapshot_init(&snapshot1, channels, snapshot);
   nlastrip_evaluate(
       ptr, channels, &tmp_modifiers, &tmp_nes, &snapshot1, anim_eval_context, flush_to_original);
@@ -1909,6 +1910,7 @@ static void nlastrip_evaluate_transition(PointerRNA *ptr,
   /* second strip */
   tmp_nes.strip_mode = NES_TIME_TRANSITION_END;
   tmp_nes.strip = s2;
+  tmp_nes.strip_time = s2->strip_time;
   nlaeval_snapshot_init(&snapshot2, channels, snapshot);
   nlastrip_evaluate(
       ptr, channels, &tmp_modifiers, &tmp_nes, &snapshot2, anim_eval_context, flush_to_original);

@@ -6488,6 +6488,33 @@ engines/overlay/shaders/sculpt_mask_vert.glsl.c.s:
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/draw/CMakeFiles/bf_draw.dir/build.make source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/sculpt_mask_vert.glsl.c.s
 .PHONY : engines/overlay/shaders/sculpt_mask_vert.glsl.c.s
 
+engines/overlay/shaders/volume_gridlines_vert.glsl.o: engines/overlay/shaders/volume_gridlines_vert.glsl.c.o
+
+.PHONY : engines/overlay/shaders/volume_gridlines_vert.glsl.o
+
+# target to build an object file
+engines/overlay/shaders/volume_gridlines_vert.glsl.c.o:
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/draw/CMakeFiles/bf_draw.dir/build.make source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.o
+.PHONY : engines/overlay/shaders/volume_gridlines_vert.glsl.c.o
+
+engines/overlay/shaders/volume_gridlines_vert.glsl.i: engines/overlay/shaders/volume_gridlines_vert.glsl.c.i
+
+.PHONY : engines/overlay/shaders/volume_gridlines_vert.glsl.i
+
+# target to preprocess a source file
+engines/overlay/shaders/volume_gridlines_vert.glsl.c.i:
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/draw/CMakeFiles/bf_draw.dir/build.make source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.i
+.PHONY : engines/overlay/shaders/volume_gridlines_vert.glsl.c.i
+
+engines/overlay/shaders/volume_gridlines_vert.glsl.s: engines/overlay/shaders/volume_gridlines_vert.glsl.c.s
+
+.PHONY : engines/overlay/shaders/volume_gridlines_vert.glsl.s
+
+# target to generate assembly for a file
+engines/overlay/shaders/volume_gridlines_vert.glsl.c.s:
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/draw/CMakeFiles/bf_draw.dir/build.make source/blender/draw/CMakeFiles/bf_draw.dir/engines/overlay/shaders/volume_gridlines_vert.glsl.c.s
+.PHONY : engines/overlay/shaders/volume_gridlines_vert.glsl.c.s
+
 engines/overlay/shaders/volume_velocity_vert.glsl.o: engines/overlay/shaders/volume_velocity_vert.glsl.c.o
 
 .PHONY : engines/overlay/shaders/volume_velocity_vert.glsl.o
@@ -9576,6 +9603,9 @@ help:
 	@echo "... engines/overlay/shaders/sculpt_mask_vert.glsl.o"
 	@echo "... engines/overlay/shaders/sculpt_mask_vert.glsl.i"
 	@echo "... engines/overlay/shaders/sculpt_mask_vert.glsl.s"
+	@echo "... engines/overlay/shaders/volume_gridlines_vert.glsl.o"
+	@echo "... engines/overlay/shaders/volume_gridlines_vert.glsl.i"
+	@echo "... engines/overlay/shaders/volume_gridlines_vert.glsl.s"
 	@echo "... engines/overlay/shaders/volume_velocity_vert.glsl.o"
 	@echo "... engines/overlay/shaders/volume_velocity_vert.glsl.i"
 	@echo "... engines/overlay/shaders/volume_velocity_vert.glsl.s"

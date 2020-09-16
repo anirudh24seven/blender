@@ -28,6 +28,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../source/blender/editors/io"
   "../source/blender/blenkernel"
   "../source/blender/blenlib"
+  "../source/blender/gpu"
   "../source/blender/makesdna"
   "../source/blender/makesrna"
   "../source/blender/windowmanager"

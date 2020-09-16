@@ -39,7 +39,7 @@
 #include <Common.h>
 #include <Stream.h>
 
-/// DXT1 block.
+/** DXT1 block. */
 struct BlockDXT1 {
   Color16 col0;
   Color16 col1;
@@ -65,13 +65,13 @@ struct BlockDXT1 {
   void flip2();
 };
 
-/// Return true if the block uses four color mode, false otherwise.
+/** Return true if the block uses four color mode, false otherwise. */
 inline bool BlockDXT1::isFourColorMode() const
 {
   return col0.u > col1.u;
 }
 
-/// DXT3 alpha block with explicit alpha.
+/** DXT3 alpha block with explicit alpha. */
 struct AlphaBlockDXT3 {
   union {
     struct {
@@ -101,7 +101,7 @@ struct AlphaBlockDXT3 {
   void flip2();
 };
 
-/// DXT3 block.
+/** DXT3 block. */
 struct BlockDXT3 {
   AlphaBlockDXT3 alpha;
   BlockDXT1 color;
@@ -113,7 +113,7 @@ struct BlockDXT3 {
   void flip2();
 };
 
-/// DXT5 alpha block.
+/** DXT5 alpha block. */
 struct AlphaBlockDXT5 {
   // uint64 unions do not compile on all platforms
 #if 0
@@ -229,7 +229,7 @@ struct AlphaBlockDXT5 {
   void flip2();
 };
 
-/// DXT5 block.
+/** DXT5 block. */
 struct BlockDXT5 {
   AlphaBlockDXT5 alpha;
   BlockDXT1 color;
@@ -241,7 +241,7 @@ struct BlockDXT5 {
   void flip2();
 };
 
-/// ATI1 block.
+/** ATI1 block. */
 struct BlockATI1 {
   AlphaBlockDXT5 alpha;
 
@@ -251,7 +251,7 @@ struct BlockATI1 {
   void flip2();
 };
 
-/// ATI2 block.
+/** ATI2 block. */
 struct BlockATI2 {
   AlphaBlockDXT5 x;
   AlphaBlockDXT5 y;
@@ -262,7 +262,7 @@ struct BlockATI2 {
   void flip2();
 };
 
-/// CTX1 block.
+/** CTX1 block. */
 struct BlockCTX1 {
   uint8 col0[2];
   uint8 col1[2];

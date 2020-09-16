@@ -17,12 +17,8 @@ set(CMAKE_C_COMPILER_ID "AppleClang")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
   "DEBUG"
-  "GLEW_NO_ES"
-  "GLEW_NO_GLU"
-  "GLEW_STATIC"
   "MACOSX_DEPLOYMENT_TARGET=10.13"
   "WITH_ASSERT_ABORT"
-  "WITH_GL_PROFILE_CORE"
   "WITH_INTERNATIONAL"
   "WITH_OPENGL"
   "WITH_PYTHON"
@@ -48,7 +44,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../intern/guardedalloc"
   "../source/blender/python"
   "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"
-  "../extern/glew/include"
   "/Users/anirudh/workspace/blender-git/lib/darwin/freetype/include"
   "/Users/anirudh/workspace/blender-git/lib/darwin/freetype/include/freetype2"
   )

@@ -251,6 +251,33 @@ exporter/abc_archive.cc.s:
 	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/io/alembic/CMakeFiles/bf_alembic.dir/build.make source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.s
 .PHONY : exporter/abc_archive.cc.s
 
+exporter/abc_custom_props.o: exporter/abc_custom_props.cc.o
+
+.PHONY : exporter/abc_custom_props.o
+
+# target to build an object file
+exporter/abc_custom_props.cc.o:
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/io/alembic/CMakeFiles/bf_alembic.dir/build.make source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o
+.PHONY : exporter/abc_custom_props.cc.o
+
+exporter/abc_custom_props.i: exporter/abc_custom_props.cc.i
+
+.PHONY : exporter/abc_custom_props.i
+
+# target to preprocess a source file
+exporter/abc_custom_props.cc.i:
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/io/alembic/CMakeFiles/bf_alembic.dir/build.make source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.i
+.PHONY : exporter/abc_custom_props.cc.i
+
+exporter/abc_custom_props.s: exporter/abc_custom_props.cc.s
+
+.PHONY : exporter/abc_custom_props.s
+
+# target to generate assembly for a file
+exporter/abc_custom_props.cc.s:
+	cd /Users/anirudh/workspace/blender-git/blender/cmake-build-debug && $(MAKE) $(MAKESILENT) -f source/blender/io/alembic/CMakeFiles/bf_alembic.dir/build.make source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.s
+.PHONY : exporter/abc_custom_props.cc.s
+
 exporter/abc_export_capi.o: exporter/abc_export_capi.cc.o
 
 .PHONY : exporter/abc_export_capi.o
@@ -945,6 +972,9 @@ help:
 	@echo "... exporter/abc_archive.o"
 	@echo "... exporter/abc_archive.i"
 	@echo "... exporter/abc_archive.s"
+	@echo "... exporter/abc_custom_props.o"
+	@echo "... exporter/abc_custom_props.i"
+	@echo "... exporter/abc_custom_props.s"
 	@echo "... exporter/abc_export_capi.o"
 	@echo "... exporter/abc_export_capi.i"
 	@echo "... exporter/abc_export_capi.s"

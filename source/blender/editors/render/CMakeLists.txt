@@ -17,10 +17,6 @@ set(INC
   ../../../../intern/guardedalloc
 )
 
-set(INC_SYS
-  ${GLEW_INCLUDE_PATH}
-)
-
 set(SRC
   render_internal.c
   render_opengl.c
@@ -44,7 +40,6 @@ else()
   )
 endif()
 
-add_definitions(${GL_DEFINITIONS})
 
 if(WITH_FREESTYLE)
   list(APPEND INC

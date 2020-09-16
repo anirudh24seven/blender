@@ -111,6 +111,13 @@ typedef enum eSpaceInfo_RptMask {
 /** \name Properties Editor
  * \{ */
 
+#
+#
+typedef struct SpaceProperties_Runtime {
+  /** For filtering properties displayed in the space. Length defined as UI_MAX_NAME_STR. */
+  char search_string[128];
+} SpaceProperties_Runtime;
+
 /* Properties Editor */
 typedef struct SpaceProperties {
   SpaceLink *next, *prev;
@@ -141,6 +148,9 @@ typedef struct SpaceProperties {
   ID *pinid;
 
   void *texuser;
+
+  /* Doesn't necessarily need to be a pointer, but runtime structs are still written to files. */
+  SpaceProperties_Runtime *runtime;
 } SpaceProperties;
 
 /* button defines (deprecated) */

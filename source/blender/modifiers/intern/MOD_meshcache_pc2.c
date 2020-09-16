@@ -65,7 +65,7 @@ static bool meshcache_read_pc2_head(FILE *fp,
 }
 
 /**
- * Gets the index frange and factor
+ * Gets the index range and factor
  *
  * currently same as for MDD
  */

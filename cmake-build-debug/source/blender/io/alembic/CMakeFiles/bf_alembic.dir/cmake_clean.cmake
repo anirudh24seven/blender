@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "../../../../lib/libbf_alembic.a"
   "../../../../lib/libbf_alembic.pdb"
   "CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.o"
+  "CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o"
   "CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o"
   "CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o"
   "CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o"

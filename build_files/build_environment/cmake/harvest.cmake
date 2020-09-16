@@ -159,6 +159,8 @@ harvest(xvidcore/lib ffmpeg/lib "*.a")
 harvest(usd/include usd/include "*.h")
 harvest(usd/lib/usd usd/lib/usd "*")
 harvest(usd/plugin usd/plugin "*")
+harvest(potrace/include potrace/include "*.h")
+harvest(potrace/lib potrace/lib "*.a")
 
 if(UNIX AND NOT APPLE)
   harvest(libglu/lib mesa/lib "*.so*")

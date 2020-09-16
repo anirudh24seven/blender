@@ -73,15 +73,15 @@ CMAKE_BINARY_DIR = /Users/anirudh/workspace/blender-git/blender/cmake-build-debu
 # Include the progress variables for this target.
 include CMakeFiles/package_archive.dir/progress.make
 
-CMakeFiles/package_archive: release/Blender-2.91-f3224bbc0f6d-OSX-x86_64.zip
+CMakeFiles/package_archive: release/Blender-2.91-dced746dc325-OSX-x86_64.zip
 
 
-release/Blender-2.91-f3224bbc0f6d-OSX-x86_64.zip:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating release/Blender-2.91-f3224bbc0f6d-OSX-x86_64.zip"
-	python /Users/anirudh/workspace/blender-git/blender/build_files/package_spec/build_archive.py Blender-2.91-f3224bbc0f6d-OSX-x86_64 zip bin release
+release/Blender-2.91-dced746dc325-OSX-x86_64.zip:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating release/Blender-2.91-dced746dc325-OSX-x86_64.zip"
+	python /Users/anirudh/workspace/blender-git/blender/build_files/package_spec/build_archive.py Blender-2.91-dced746dc325-OSX-x86_64 zip bin release
 
 package_archive: CMakeFiles/package_archive
-package_archive: release/Blender-2.91-f3224bbc0f6d-OSX-x86_64.zip
+package_archive: release/Blender-2.91-dced746dc325-OSX-x86_64.zip
 package_archive: CMakeFiles/package_archive.dir/build.make
 
 .PHONY : package_archive

@@ -28,7 +28,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Blender</string>
 	<key>CFBundleGetInfoString</key>
-	<string>2.91.0 2020-09-11, Blender Foundation</string>
+	<string>2.91.0 2020-09-16, Blender Foundation</string>
 	<key>CFBundleIconFile</key>
 	<string>blender icon.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -44,7 +44,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2.91.0 2020-09-11</string>
+	<string>2.91.0 2020-09-16</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSHighResolutionCapable</key>

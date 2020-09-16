@@ -11,10 +11,6 @@ set(INC
   ../../../../intern/guardedalloc
 )
 
-set(INC_SYS
-  ${GLEW_INCLUDE_PATH}
-)
-
 set(SRC
   action_buttons.c
   action_data.c
@@ -32,6 +28,5 @@ set(LIB
   bf_blenlib
 )
 
-add_definitions(${GL_DEFINITIONS})
 
 blender_add_lib(bf_editor_space_action "${SRC}" "${INC}" "${INC_SYS}" "${LIB}")

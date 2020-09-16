@@ -393,6 +393,10 @@ struct MANTA {
   {
     return mPhi;
   }
+  inline float *getPressure()
+  {
+    return mPressure;
+  }
 
   static atomic<int> solverID;
   static int with_debug; /* On or off (1 or 0), also sets manta debug level. */
@@ -787,6 +791,7 @@ struct MANTA {
   int *mFlags;
   float *mNumObstacle;
   float *mNumGuide;
+  float *mPressure;
 
   /* Smoke grids. */
   float *mDensity;

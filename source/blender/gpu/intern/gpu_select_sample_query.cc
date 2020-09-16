@@ -7,6 +7,7 @@
 
 #include <stdlib.h>
 
+#include "GPU_debug.h"
 #include "GPU_framebuffer.h"
 #include "GPU_select.h"
 #include "GPU_state.h"
@@ -55,6 +56,8 @@ static GPUSelectQueryState g_query_state = {0};
 void gpu_select_query_begin(
     uint (*buffer)[4], uint bufsize, const rcti *input, char mode, int oldhits)
 {
+  GPU_debug_group_begin("Selection Queries");
+
   g_query_state.query_issued = false;
   g_query_state.bufsize = bufsize;
   g_query_state.buffer = buffer;
@@ -177,6 +180,8 @@ uint gpu_select_query_end(void)
   GPU_write_mask(g_query_state.write_mask);
   GPU_depth_test(g_query_state.depth_test);
   GPU_viewport(UNPACK4(g_query_state.viewport));
+
+  GPU_debug_group_end();
 
   return hits;
 }

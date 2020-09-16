@@ -16,6 +16,10 @@
 
 #include "imbuf.h"
 
+/* -------------------------------------------------------------------- */
+/** \name Local Structs
+ * \{ */
+
 /* We use a two level cache here. A per-thread cache with limited number of
  * tiles. This can be accessed without locking and so is hoped to lead to most
  * tile access being lock-free. The global cache is shared between all threads
@@ -69,7 +73,11 @@ typedef struct ImGlobalTileCache {
 
 static ImGlobalTileCache GLOBAL_CACHE;
 
-/***************************** Hash Functions ********************************/
+/** \} */
+
+/* -------------------------------------------------------------------- */
+/** \name Hash Functions
+ * \{ */
 
 static unsigned int imb_global_tile_hash(const void *gtile_p)
 {
@@ -101,7 +109,11 @@ static bool imb_thread_tile_cmp(const void *a_p, const void *b_p)
   return ((a->ibuf != b->ibuf) || (a->tx != b->tx) || (a->ty != b->ty));
 }
 
-/******************************** Load/Unload ********************************/
+/** \} */
+
+/* -------------------------------------------------------------------- */
+/** \name Load/Unload
+ * \{ */
 
 static void imb_global_cache_tile_load(ImGlobalTile *gtile)
 {
@@ -151,7 +163,11 @@ void imb_tile_cache_tile_free(ImBuf *ibuf, int tx, int ty)
   BLI_mutex_unlock(&GLOBAL_CACHE.mutex);
 }
 
-/******************************* Init/Exit ***********************************/
+/** \} */
+
+/* -------------------------------------------------------------------- */
+/** \name Init/Exit
+ * \{ */
 
 static void imb_thread_cache_init(ImThreadTileCache *cache)
 {
@@ -249,7 +265,11 @@ void IMB_tile_cache_params(int totthread, int maxmem)
   BLI_mutex_init(&GLOBAL_CACHE.mutex);
 }
 
-/***************************** Global Cache **********************************/
+/** \} */
+
+/* -------------------------------------------------------------------- */
+/** \name Global Cache
+ * \{ */
 
 static ImGlobalTile *imb_global_cache_get_tile(ImBuf *ibuf,
                                                int tx,
@@ -337,7 +357,11 @@ static ImGlobalTile *imb_global_cache_get_tile(ImBuf *ibuf,
   return gtile;
 }
 
-/***************************** Per-Thread Cache ******************************/
+/** \} */
+
+/* -------------------------------------------------------------------- */
+/** \name Per-Thread Cache
+ * \{ */
 
 static unsigned int *imb_thread_cache_get_tile(ImThreadTileCache *cache,
                                                ImBuf *ibuf,
@@ -449,3 +473,5 @@ void IMB_tiles_to_rect(ImBuf *ibuf)
     }
   }
 }
+
+/** \} */

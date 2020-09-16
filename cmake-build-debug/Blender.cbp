@@ -4368,10 +4368,6 @@
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4385,7 +4381,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4419,10 +4414,6 @@
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4436,7 +4427,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4469,10 +4459,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4487,7 +4473,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4520,10 +4505,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4538,7 +4519,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4571,10 +4551,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4589,7 +4565,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/curve_fit_nd"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4622,10 +4597,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4640,7 +4611,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/curve_fit_nd"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4750,10 +4720,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4768,7 +4734,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4800,10 +4765,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -4818,7 +4779,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4851,10 +4811,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -4869,7 +4825,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4902,10 +4857,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -4920,7 +4871,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -4955,10 +4905,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_CYCLES"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -4976,7 +4922,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5011,10 +4956,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_CYCLES"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -5032,7 +4973,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5246,10 +5186,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -5261,7 +5197,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5293,10 +5228,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -5308,7 +5239,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5343,10 +5273,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_BULLET"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/uvedit"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -5365,7 +5291,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5400,10 +5325,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_BULLET"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/uvedit"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -5422,7 +5343,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5538,10 +5458,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_PYTHON"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -5566,7 +5482,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5598,10 +5513,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_PYTHON"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -5626,7 +5537,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5661,10 +5571,6 @@
 					<Add option="-DWITH_FLUID"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_BULLET"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -5679,7 +5585,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/mantaflow/extern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/rigidbody"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5714,10 +5619,6 @@
 					<Add option="-DWITH_FLUID"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_BULLET"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -5732,7 +5633,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/mantaflow/extern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/rigidbody"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5764,10 +5664,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -5788,7 +5684,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5820,10 +5715,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -5844,7 +5735,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -5959,10 +5849,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/uvedit"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -5982,7 +5868,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6015,10 +5900,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/uvedit"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -6038,7 +5919,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6160,10 +6040,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -6175,7 +6051,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6207,10 +6082,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -6222,7 +6093,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6258,6 +6128,7 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/io"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/windowmanager"/>
@@ -6298,6 +6169,7 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/io"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
+					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/windowmanager"/>
@@ -6335,10 +6207,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_PARTICLE_NODES"/>
 					<Add option="-DWITH_HAIR_NODES"/>
@@ -6353,7 +6221,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6386,10 +6253,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_PARTICLE_NODES"/>
 					<Add option="-DWITH_HAIR_NODES"/>
@@ -6404,7 +6267,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6436,10 +6298,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -6455,7 +6313,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6487,10 +6344,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -6506,7 +6359,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6539,10 +6391,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -6554,7 +6402,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6587,10 +6434,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -6602,7 +6445,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6642,10 +6484,6 @@
 					<Add option="-DWITH_CINEON"/>
 					<Add option="-DWITH_HDR"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -6663,7 +6501,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6703,10 +6540,6 @@
 					<Add option="-DWITH_CINEON"/>
 					<Add option="-DWITH_HDR"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -6724,7 +6557,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6758,10 +6590,6 @@
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_AUDASPACE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -6774,7 +6602,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -6810,10 +6637,6 @@
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_AUDASPACE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -6826,7 +6649,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -6866,10 +6688,6 @@
 					<Add option="-DWITH_OPENEXR"/>
 					<Add option="-DWITH_TIFF"/>
 					<Add option="-DWITH_CINEON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -6888,7 +6706,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6926,10 +6743,6 @@
 					<Add option="-DWITH_OPENEXR"/>
 					<Add option="-DWITH_TIFF"/>
 					<Add option="-DWITH_CINEON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -6948,7 +6761,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -6981,10 +6793,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -7001,7 +6809,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7034,10 +6841,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -7054,7 +6857,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7087,10 +6889,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7103,7 +6901,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7136,10 +6933,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7152,7 +6945,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7187,10 +6979,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_COMPOSITOR"/>
 					<Add option="-DWITH_OPENIMAGEDENOISE"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -7208,7 +6996,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7243,10 +7030,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_COMPOSITOR"/>
 					<Add option="-DWITH_OPENIMAGEDENOISE"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -7264,7 +7047,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7297,10 +7079,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7314,7 +7092,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7347,10 +7124,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7364,7 +7137,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7397,10 +7169,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7412,7 +7180,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7445,10 +7212,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7460,7 +7223,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7494,10 +7256,6 @@
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_AUDASPACE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -7513,7 +7271,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -7549,10 +7306,6 @@
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_AUDASPACE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -7568,7 +7321,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -7602,10 +7354,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7618,7 +7366,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7650,10 +7397,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7666,7 +7409,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7698,10 +7440,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_PYTHON"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -7717,7 +7455,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7749,10 +7486,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_PYTHON"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -7768,7 +7501,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7800,10 +7532,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7816,7 +7544,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7848,10 +7575,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -7864,7 +7587,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -7975,10 +7697,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
@@ -8001,7 +7719,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/mantaflow/extern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/makesdna/intern"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8034,10 +7751,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
@@ -8060,7 +7773,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/mantaflow/extern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/makesdna/intern"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8093,10 +7805,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -8113,7 +7821,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8146,10 +7853,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -8166,7 +7869,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8284,10 +7986,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_PYTHON"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -8307,7 +8005,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8339,10 +8036,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_PYTHON"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
@@ -8362,7 +8055,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8395,10 +8087,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -8413,7 +8101,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8446,10 +8133,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -8464,7 +8147,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8497,10 +8179,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -8517,7 +8195,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8550,10 +8227,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -8570,7 +8243,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/glew-mx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -8666,10 +8338,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_AUDASPACE"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_COLLADA"/>
 					<Add option="-DWITH_FFMPEG"/>
@@ -8702,7 +8370,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/memutil"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/ffmpeg/include"/>
@@ -8737,10 +8404,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_AUDASPACE"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_COLLADA"/>
 					<Add option="-DWITH_FFMPEG"/>
@@ -8773,7 +8436,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/memutil"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/ffmpeg/include"/>
@@ -8807,10 +8469,6 @@
 					<Add option="-D__LITTLE_ENDIAN__"/>
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_AUDASPACE"/>
 					<Add option="-DWITH_BULLET"/>
 					<Add option="-DWITH_OPENEXR"/>
@@ -8879,7 +8537,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/openvdb"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/quadriflow"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/bullet2/src"/>
@@ -8923,10 +8580,6 @@
 					<Add option="-D__LITTLE_ENDIAN__"/>
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_AUDASPACE"/>
 					<Add option="-DWITH_BULLET"/>
 					<Add option="-DWITH_OPENEXR"/>
@@ -8995,7 +8648,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/openvdb"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/quadriflow"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/bullet2/src"/>
@@ -9217,10 +8869,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_FLUID"/>
 					<Add option="-DWITH_FREESTYLE"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/draw"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -9244,7 +8892,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/mantaflow/extern"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -9277,10 +8924,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_FLUID"/>
 					<Add option="-DWITH_FREESTYLE"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/draw"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -9304,7 +8947,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/mantaflow/extern"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -9339,10 +8981,6 @@
 					<Add option="-DWITH_OPENEXR"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/render/extern/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/render/intern/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -9363,7 +9001,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -9398,10 +9035,6 @@
 					<Add option="-DWITH_OPENEXR"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/render/extern/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/render/intern/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
@@ -9422,7 +9055,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -9455,10 +9087,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -9472,7 +9100,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/freetype/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/freetype/include/freetype2"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -9507,10 +9134,6 @@
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_PYTHON"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -9524,7 +9147,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/guardedalloc"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/freetype/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/freetype/include/freetype2"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
@@ -10307,10 +9929,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_OPENEXR"/>
 					<Add option="-DWITH_COMPOSITOR"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/nodes"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/nodes/composite"/>
@@ -10335,7 +9953,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/compositor"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/python/include/python3.7m"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -10371,10 +9988,6 @@
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_OPENEXR"/>
 					<Add option="-DWITH_COMPOSITOR"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_FREESTYLE"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/nodes"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/nodes/composite"/>
@@ -10399,7 +10012,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/compositor"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/python/include/python3.7m"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -10439,10 +10051,6 @@
 					<Add option="-DWITH_BULLET"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_CYCLES"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/modifiers"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/modifiers/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -10501,10 +10109,6 @@
 					<Add option="-DWITH_BULLET"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
 					<Add option="-DWITH_CYCLES"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/modifiers"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/modifiers/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -10556,10 +10160,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpencil_modifiers"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpencil_modifiers/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -10607,10 +10207,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpencil_modifiers"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpencil_modifiers/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -10658,10 +10254,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/shader_fx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/shader_fx/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -10709,10 +10301,6 @@
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
 					<Add option="-DWITH_INTERNATIONAL"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/shader_fx"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/shader_fx/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -11528,10 +11116,6 @@
 					<Add option="-DWITH_OPENVDB"/>
 					<Add option="-DWITH_OPENVDB_BLOSC"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -11566,7 +11150,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/opensubdiv"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/ffmpeg/include"/>
@@ -11627,10 +11210,6 @@
 					<Add option="-DWITH_OPENVDB"/>
 					<Add option="-DWITH_OPENVDB_BLOSC"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -11665,7 +11244,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/opensubdiv"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/ffmpeg/include"/>
@@ -11726,10 +11304,6 @@
 					<Add option="-DWITH_OPENVDB"/>
 					<Add option="-DWITH_OPENVDB_BLOSC"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -11764,7 +11338,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/opensubdiv"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/ffmpeg/include"/>
@@ -11825,10 +11398,6 @@
 					<Add option="-DWITH_OPENVDB"/>
 					<Add option="-DWITH_OPENVDB_BLOSC"/>
 					<Add option="-DWITH_INPUT_NDOF"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna/intern"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesrna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenfont"/>
@@ -11863,7 +11432,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/freestyle"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/opensubdiv"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/audaspace/bindings/C"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/extern/audaspace"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/ffmpeg/include"/>
@@ -12375,10 +11943,6 @@
 					<Add option="-DWITH_OCIO"/>
 					<Add option="-DWITH_OPENVDB"/>
 					<Add option="-DWITH_USD"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -12468,10 +12032,6 @@
 					<Add option="-DWITH_OCIO"/>
 					<Add option="-DWITH_OPENVDB"/>
 					<Add option="-DWITH_USD"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/python"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenkernel"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/blenlib"/>
@@ -12973,10 +12533,6 @@
 					<Add option="-D__LITTLE_ENDIAN__"/>
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_LIBMV"/>
 					<Add option="-DWITH_CYCLES_LOGGING"/>
 					<Add option="-DWITH_FFMPEG"/>
@@ -12988,8 +12544,8 @@
 					<Add option="-DWITH_BUILDINFO_HEADER"/>
 					<Add option="-DBUILD_PLATFORM=&quot;Darwin&quot;"/>
 					<Add option="-DBUILD_TYPE=&quot;Debug&quot;"/>
-					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse -pipe -funsigned-char -msse2&quot;"/>
-					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse  -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse  -pipe -funsigned-char -msse2&quot;"/>
 					<Add option="-DBUILD_LINKFLAGS=&quot;-fexceptions -framework CoreServices -framework Foundation -framework IOKit -framework AppKit -framework Cocoa -framework Carbon -framework AudioUnit -framework AudioToolbox -framework CoreAudio -framework Metal -framework QuartzCore -framework ForceFeedback -liconv -Xlinker -stack_size -Xlinker 0x100000 -Xlinker -unexported_symbols_list -Xlinker &apos;/Users/anirudh/workspace/blender-git/blender/source/creator/osx_locals.map&apos; -stdlib=libc++&quot;"/>
 					<Add option="-DBUILD_SYSTEM=&quot;CMake&quot;"/>
 					<Add option="-DWITH_USD"/>
@@ -13007,7 +12563,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/windowmanager"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/libmv"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/cycles/blender"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/tbb/include"/>
@@ -13045,10 +12600,6 @@
 					<Add option="-D__LITTLE_ENDIAN__"/>
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_LIBMV"/>
 					<Add option="-DWITH_CYCLES_LOGGING"/>
 					<Add option="-DWITH_FFMPEG"/>
@@ -13060,8 +12611,8 @@
 					<Add option="-DWITH_BUILDINFO_HEADER"/>
 					<Add option="-DBUILD_PLATFORM=&quot;Darwin&quot;"/>
 					<Add option="-DBUILD_TYPE=&quot;Debug&quot;"/>
-					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse -pipe -funsigned-char -msse2&quot;"/>
-					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse  -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse  -pipe -funsigned-char -msse2&quot;"/>
 					<Add option="-DBUILD_LINKFLAGS=&quot;-fexceptions -framework CoreServices -framework Foundation -framework IOKit -framework AppKit -framework Cocoa -framework Carbon -framework AudioUnit -framework AudioToolbox -framework CoreAudio -framework Metal -framework QuartzCore -framework ForceFeedback -liconv -Xlinker -stack_size -Xlinker 0x100000 -Xlinker -unexported_symbols_list -Xlinker &apos;/Users/anirudh/workspace/blender-git/blender/source/creator/osx_locals.map&apos; -stdlib=libc++&quot;"/>
 					<Add option="-DBUILD_SYSTEM=&quot;CMake&quot;"/>
 					<Add option="-DWITH_USD"/>
@@ -13079,7 +12630,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/windowmanager"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/libmv"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/cycles/blender"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/tbb/include"/>
@@ -13117,10 +12667,6 @@
 					<Add option="-D__LITTLE_ENDIAN__"/>
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_LIBMV"/>
 					<Add option="-DWITH_CYCLES_LOGGING"/>
 					<Add option="-DWITH_FFMPEG"/>
@@ -13132,8 +12678,8 @@
 					<Add option="-DWITH_BUILDINFO_HEADER"/>
 					<Add option="-DBUILD_PLATFORM=&quot;Darwin&quot;"/>
 					<Add option="-DBUILD_TYPE=&quot;Debug&quot;"/>
-					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse -pipe -funsigned-char -msse2&quot;"/>
-					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse  -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse  -pipe -funsigned-char -msse2&quot;"/>
 					<Add option="-DBUILD_LINKFLAGS=&quot;-fexceptions -framework CoreServices -framework Foundation -framework IOKit -framework AppKit -framework Cocoa -framework Carbon -framework AudioUnit -framework AudioToolbox -framework CoreAudio -framework Metal -framework QuartzCore -framework ForceFeedback -liconv -Xlinker -stack_size -Xlinker 0x100000 -Xlinker -unexported_symbols_list -Xlinker &apos;/Users/anirudh/workspace/blender-git/blender/source/creator/osx_locals.map&apos; -stdlib=libc++&quot;"/>
 					<Add option="-DBUILD_SYSTEM=&quot;CMake&quot;"/>
 					<Add option="-DWITH_USD"/>
@@ -13151,7 +12697,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/windowmanager"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/libmv"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/cycles/blender"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/tbb/include"/>
@@ -13189,10 +12734,6 @@
 					<Add option="-D__LITTLE_ENDIAN__"/>
 					<Add option="-DWITH_OPENGL"/>
 					<Add option="-DWITH_ASSERT_ABORT"/>
-					<Add option="-DWITH_GL_PROFILE_CORE"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add option="-DGLEW_NO_ES"/>
-					<Add option="-DGLEW_NO_GLU"/>
 					<Add option="-DWITH_LIBMV"/>
 					<Add option="-DWITH_CYCLES_LOGGING"/>
 					<Add option="-DWITH_FFMPEG"/>
@@ -13204,8 +12745,8 @@
 					<Add option="-DWITH_BUILDINFO_HEADER"/>
 					<Add option="-DBUILD_PLATFORM=&quot;Darwin&quot;"/>
 					<Add option="-DBUILD_TYPE=&quot;Debug&quot;"/>
-					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse -pipe -funsigned-char -msse2&quot;"/>
-					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CFLAGS=&quot; -Wall -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter  -mmacosx-version-min=10.13 -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=gnu11   -msse  -pipe -funsigned-char -msse2&quot;"/>
+					<Add option="-DBUILD_CXXFLAGS=&quot; -Wall -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof  -mmacosx-version-min=10.13 -ftemplate-depth=1024 -stdlib=libc++ -Xclang -fopenmp -I&apos;/Users/anirudh/workspace/blender-git/blender/../lib/darwin/openmp/include&apos; -std=c++17   -msse  -pipe -funsigned-char -msse2&quot;"/>
 					<Add option="-DBUILD_LINKFLAGS=&quot;-fexceptions -framework CoreServices -framework Foundation -framework IOKit -framework AppKit -framework Cocoa -framework Carbon -framework AudioUnit -framework AudioToolbox -framework CoreAudio -framework Metal -framework QuartzCore -framework ForceFeedback -liconv -Xlinker -stack_size -Xlinker 0x100000 -Xlinker -unexported_symbols_list -Xlinker &apos;/Users/anirudh/workspace/blender-git/blender/source/creator/osx_locals.map&apos; -stdlib=libc++&quot;"/>
 					<Add option="-DBUILD_SYSTEM=&quot;CMake&quot;"/>
 					<Add option="-DWITH_USD"/>
@@ -13223,7 +12764,6 @@
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/makesdna"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/source/blender/windowmanager"/>
-					<Add directory="/Users/anirudh/workspace/blender-git/blender/extern/glew/include"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/libmv"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/blender/intern/cycles/blender"/>
 					<Add directory="/Users/anirudh/workspace/blender-git/lib/darwin/tbb/include"/>
@@ -14664,6 +14204,12 @@
 			<Option target="bf_draw"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/sculpt_mask_vert.glsl.c.rule">
+			<Option target="bf_draw"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c">
+			<Option target="bf_draw"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl.c.rule">
 			<Option target="bf_draw"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl.c">
@@ -28696,6 +28242,9 @@
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/image/image_engine.h">
 			<Option target="bf_draw"/>
 		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/image/image_private.h">
+			<Option target="bf_draw"/>
+		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/image/image_shader.c">
 			<Option target="bf_draw"/>
 		</Unit>
@@ -29039,6 +28588,9 @@
 			<Option target="bf_draw"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/sculpt_mask_vert.glsl">
+			<Option target="bf_draw"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/volume_gridlines_vert.glsl">
 			<Option target="bf_draw"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/draw/engines/overlay/shaders/volume_velocity_vert.glsl">
@@ -29669,6 +29221,9 @@
 			<Option target="bf_editor_util"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include/ED_fileselect.h">
+			<Option target="bf_editor_util"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include/ED_geometry.h">
 			<Option target="bf_editor_util"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/editors/include/ED_gizmo_library.h">
@@ -33061,6 +32616,9 @@
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu/intern/gpu_debug.cc">
 			<Option target="bf_gpu"/>
 		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu/intern/gpu_debug_private.hh">
+			<Option target="bf_gpu"/>
+		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/gpu/intern/gpu_drawlist.cc">
 			<Option target="bf_gpu"/>
 		</Unit>
@@ -34049,6 +33607,12 @@
 			<Option target="bf_alembic"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_archive.h">
+			<Option target="bf_alembic"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_custom_props.cc">
+			<Option target="bf_alembic"/>
+		</Unit>
+		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_custom_props.h">
 			<Option target="bf_alembic"/>
 		</Unit>
 		<Unit filename="/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_export_capi.cc">

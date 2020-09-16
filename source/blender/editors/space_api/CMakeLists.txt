@@ -3,6 +3,7 @@ set(INC
   ../io
   ../../blenkernel
   ../../blenlib
+  ../../gpu
   ../../makesdna
   ../../makesrna
   ../../windowmanager

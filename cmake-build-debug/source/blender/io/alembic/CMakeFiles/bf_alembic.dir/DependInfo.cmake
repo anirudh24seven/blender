@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_archive.cc" "/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_archive.cc.o"
+  "/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_custom_props.cc" "/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_custom_props.cc.o"
   "/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_export_capi.cc" "/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_export_capi.cc.o"
   "/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_hierarchy_iterator.cc" "/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_hierarchy_iterator.cc.o"
   "/Users/anirudh/workspace/blender-git/blender/source/blender/io/alembic/exporter/abc_subdiv_disabler.cc" "/Users/anirudh/workspace/blender-git/blender/cmake-build-debug/source/blender/io/alembic/CMakeFiles/bf_alembic.dir/exporter/abc_subdiv_disabler.cc.o"
